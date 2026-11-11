@@ -1,0 +1,3502 @@
+[
+  {
+    "_id": "ACC0001",
+    "customer_id": "CUST0001",
+    "type": "savings",
+    "balance": 149001.0,
+    "opened_at": "2025-08-05"
+  },
+  {
+    "_id": "ACC0002",
+    "customer_id": "CUST0002",
+    "type": "current",
+    "balance": 54614.58,
+    "opened_at": "2024-08-04"
+  },
+  {
+    "_id": "ACC0003",
+    "customer_id": "CUST0003",
+    "type": "savings",
+    "balance": 18768.08,
+    "opened_at": "2024-06-26"
+  },
+  {
+    "_id": "ACC0004",
+    "customer_id": "CUST0004",
+    "type": "savings",
+    "balance": 164969.92,
+    "opened_at": "2025-02-16"
+  },
+  {
+    "_id": "ACC0005",
+    "customer_id": "CUST0005",
+    "type": "savings",
+    "balance": 103783.78,
+    "opened_at": "2025-02-02"
+  },
+  {
+    "_id": "ACC0006",
+    "customer_id": "CUST0006",
+    "type": "current",
+    "balance": 103538.67,
+    "opened_at": "2024-03-17"
+  },
+  {
+    "_id": "ACC0007",
+    "customer_id": "CUST0007",
+    "type": "savings",
+    "balance": 142204.31,
+    "opened_at": "2025-04-21"
+  },
+  {
+    "_id": "ACC0008",
+    "customer_id": "CUST0008",
+    "type": "savings",
+    "balance": 170407.77,
+    "opened_at": "2025-11-09"
+  },
+  {
+    "_id": "ACC0009",
+    "customer_id": "CUST0009",
+    "type": "savings",
+    "balance": 35573.73,
+    "opened_at": "2024-12-26"
+  },
+  {
+    "_id": "ACC0010",
+    "customer_id": "CUST0010",
+    "type": "current",
+    "balance": 167558.36,
+    "opened_at": "2025-08-10"
+  },
+  {
+    "_id": "ACC0011",
+    "customer_id": "CUST0011",
+    "type": "savings",
+    "balance": 11061.3,
+    "opened_at": "2024-10-09"
+  },
+  {
+    "_id": "ACC0012",
+    "customer_id": "CUST0012",
+    "type": "current",
+    "balance": 55521.52,
+    "opened_at": "2024-06-16"
+  },
+  {
+    "_id": "ACC0013",
+    "customer_id": "CUST0013",
+    "type": "savings",
+    "balance": 79991.51,
+    "opened_at": "2024-04-04"
+  },
+  {
+    "_id": "ACC0014",
+    "customer_id": "CUST0014",
+    "type": "savings",
+    "balance": 7082.08,
+    "opened_at": "2024-05-08"
+  },
+  {
+    "_id": "ACC0015",
+    "customer_id": "CUST0015",
+    "type": "savings",
+    "balance": 89774.58,
+    "opened_at": "2024-10-26"
+  },
+  {
+    "_id": "ACC0016",
+    "customer_id": "CUST0016",
+    "type": "current",
+    "balance": 117789.17,
+    "opened_at": "2025-01-28"
+  },
+  {
+    "_id": "ACC0017",
+    "customer_id": "CUST0017",
+    "type": "savings",
+    "balance": 167693.1,
+    "opened_at": "2024-11-18"
+  },
+  {
+    "_id": "ACC0018",
+    "customer_id": "CUST0018",
+    "type": "current",
+    "balance": 138081.26,
+    "opened_at": "2025-07-08"
+  },
+  {
+    "_id": "ACC0019",
+    "customer_id": "CUST0019",
+    "type": "savings",
+    "balance": 10880.56,
+    "opened_at": "2024-08-31"
+  },
+  {
+    "_id": "ACC0020",
+    "customer_id": "CUST0020",
+    "type": "savings",
+    "balance": 193018.6,
+    "opened_at": "2025-07-10"
+  },
+  {
+    "_id": "ACC0021",
+    "customer_id": "CUST0021",
+    "type": "savings",
+    "balance": 45797.3,
+    "opened_at": "2024-08-19"
+  },
+  {
+    "_id": "ACC0022",
+    "customer_id": "CUST0022",
+    "type": "savings",
+    "balance": 82491.93,
+    "opened_at": "2024-08-31"
+  },
+  {
+    "_id": "ACC0023",
+    "customer_id": "CUST0023",
+    "type": "current",
+    "balance": 193460.53,
+    "opened_at": "2025-05-20"
+  },
+  {
+    "_id": "ACC0024",
+    "customer_id": "CUST0024",
+    "type": "savings",
+    "balance": 182391.57,
+    "opened_at": "2024-03-16"
+  },
+  {
+    "_id": "ACC0025",
+    "customer_id": "CUST0025",
+    "type": "savings",
+    "balance": 160372.1,
+    "opened_at": "2024-07-22"
+  },
+  {
+    "_id": "ACC0026",
+    "customer_id": "CUST0026",
+    "type": "savings",
+    "balance": 161212.03,
+    "opened_at": "2025-07-26"
+  },
+  {
+    "_id": "ACC0027",
+    "customer_id": "CUST0027",
+    "type": "current",
+    "balance": 142164.27,
+    "opened_at": "2025-02-22"
+  },
+  {
+    "_id": "ACC0028",
+    "customer_id": "CUST0028",
+    "type": "savings",
+    "balance": 75918.62,
+    "opened_at": "2025-03-20"
+  },
+  {
+    "_id": "ACC0029",
+    "customer_id": "CUST0029",
+    "type": "savings",
+    "balance": 44423.6,
+    "opened_at": "2024-11-26"
+  },
+  {
+    "_id": "ACC0030",
+    "customer_id": "CUST0030",
+    "type": "savings",
+    "balance": 165037.85,
+    "opened_at": "2025-09-13"
+  },
+  {
+    "_id": "ACC0031",
+    "customer_id": "CUST0031",
+    "type": "savings",
+    "balance": 2462.17,
+    "opened_at": "2024-04-14"
+  },
+  {
+    "_id": "ACC0032",
+    "customer_id": "CUST0032",
+    "type": "salary",
+    "balance": 168036.31,
+    "opened_at": "2024-05-31"
+  },
+  {
+    "_id": "ACC0033",
+    "customer_id": "CUST0033",
+    "type": "savings",
+    "balance": 122200.97,
+    "opened_at": "2025-08-08"
+  },
+  {
+    "_id": "ACC0034",
+    "customer_id": "CUST0034",
+    "type": "savings",
+    "balance": 96865.95,
+    "opened_at": "2024-03-21"
+  },
+  {
+    "_id": "ACC0035",
+    "customer_id": "CUST0035",
+    "type": "salary",
+    "balance": 128478.35,
+    "opened_at": "2025-11-27"
+  },
+  {
+    "_id": "ACC0036",
+    "customer_id": "CUST0036",
+    "type": "savings",
+    "balance": 131567.8,
+    "opened_at": "2024-05-19"
+  },
+  {
+    "_id": "ACC0037",
+    "customer_id": "CUST0037",
+    "type": "current",
+    "balance": 60459.43,
+    "opened_at": "2025-10-15"
+  },
+  {
+    "_id": "ACC0038",
+    "customer_id": "CUST0038",
+    "type": "savings",
+    "balance": 48820.11,
+    "opened_at": "2024-01-05"
+  },
+  {
+    "_id": "ACC0039",
+    "customer_id": "CUST0039",
+    "type": "current",
+    "balance": 160670.39,
+    "opened_at": "2024-01-29"
+  },
+  {
+    "_id": "ACC0040",
+    "customer_id": "CUST0040",
+    "type": "savings",
+    "balance": 64597.56,
+    "opened_at": "2024-05-14"
+  },
+  {
+    "_id": "ACC0041",
+    "customer_id": "CUST0041",
+    "type": "current",
+    "balance": 131424.71,
+    "opened_at": "2025-08-05"
+  },
+  {
+    "_id": "ACC0042",
+    "customer_id": "CUST0042",
+    "type": "savings",
+    "balance": 84294.57,
+    "opened_at": "2024-07-12"
+  },
+  {
+    "_id": "ACC0043",
+    "customer_id": "CUST0043",
+    "type": "current",
+    "balance": 117021.72,
+    "opened_at": "2025-12-04"
+  },
+  {
+    "_id": "ACC0044",
+    "customer_id": "CUST0044",
+    "type": "current",
+    "balance": 69290.24,
+    "opened_at": "2025-05-18"
+  },
+  {
+    "_id": "ACC0045",
+    "customer_id": "CUST0045",
+    "type": "savings",
+    "balance": 107392.39,
+    "opened_at": "2025-12-01"
+  },
+  {
+    "_id": "ACC0046",
+    "customer_id": "CUST0046",
+    "type": "savings",
+    "balance": 188192.92,
+    "opened_at": "2025-07-14"
+  },
+  {
+    "_id": "ACC0047",
+    "customer_id": "CUST0047",
+    "type": "savings",
+    "balance": 169238.43,
+    "opened_at": "2025-04-15"
+  },
+  {
+    "_id": "ACC0048",
+    "customer_id": "CUST0048",
+    "type": "savings",
+    "balance": 112091.36,
+    "opened_at": "2024-02-24"
+  },
+  {
+    "_id": "ACC0049",
+    "customer_id": "CUST0049",
+    "type": "savings",
+    "balance": 26460.88,
+    "opened_at": "2025-03-25"
+  },
+  {
+    "_id": "ACC0050",
+    "customer_id": "CUST0050",
+    "type": "current",
+    "balance": 112247.3,
+    "opened_at": "2024-12-11"
+  },
+  {
+    "_id": "ACC0051",
+    "customer_id": "CUST0051",
+    "type": "savings",
+    "balance": 136262.76,
+    "opened_at": "2025-02-02"
+  },
+  {
+    "_id": "ACC0052",
+    "customer_id": "CUST0052",
+    "type": "savings",
+    "balance": 45228.45,
+    "opened_at": "2024-10-27"
+  },
+  {
+    "_id": "ACC0053",
+    "customer_id": "CUST0053",
+    "type": "current",
+    "balance": 62109.97,
+    "opened_at": "2024-07-17"
+  },
+  {
+    "_id": "ACC0054",
+    "customer_id": "CUST0054",
+    "type": "current",
+    "balance": 74964.8,
+    "opened_at": "2024-12-01"
+  },
+  {
+    "_id": "ACC0055",
+    "customer_id": "CUST0055",
+    "type": "savings",
+    "balance": 170391.56,
+    "opened_at": "2025-03-15"
+  },
+  {
+    "_id": "ACC0056",
+    "customer_id": "CUST0056",
+    "type": "savings",
+    "balance": 127244.95,
+    "opened_at": "2025-12-23"
+  },
+  {
+    "_id": "ACC0057",
+    "customer_id": "CUST0057",
+    "type": "salary",
+    "balance": 15171.93,
+    "opened_at": "2025-08-21"
+  },
+  {
+    "_id": "ACC0058",
+    "customer_id": "CUST0058",
+    "type": "savings",
+    "balance": 24843.37,
+    "opened_at": "2025-04-19"
+  },
+  {
+    "_id": "ACC0059",
+    "customer_id": "CUST0059",
+    "type": "savings",
+    "balance": 60372.8,
+    "opened_at": "2024-09-23"
+  },
+  {
+    "_id": "ACC0060",
+    "customer_id": "CUST0060",
+    "type": "current",
+    "balance": 31004.91,
+    "opened_at": "2024-10-25"
+  },
+  {
+    "_id": "ACC0061",
+    "customer_id": "CUST0061",
+    "type": "savings",
+    "balance": 197451.13,
+    "opened_at": "2024-07-03"
+  },
+  {
+    "_id": "ACC0062",
+    "customer_id": "CUST0062",
+    "type": "salary",
+    "balance": 92056.72,
+    "opened_at": "2025-03-16"
+  },
+  {
+    "_id": "ACC0063",
+    "customer_id": "CUST0063",
+    "type": "current",
+    "balance": 36891.0,
+    "opened_at": "2025-03-07"
+  },
+  {
+    "_id": "ACC0064",
+    "customer_id": "CUST0064",
+    "type": "savings",
+    "balance": 126575.52,
+    "opened_at": "2025-11-20"
+  },
+  {
+    "_id": "ACC0065",
+    "customer_id": "CUST0065",
+    "type": "savings",
+    "balance": 12544.7,
+    "opened_at": "2025-02-21"
+  },
+  {
+    "_id": "ACC0066",
+    "customer_id": "CUST0066",
+    "type": "savings",
+    "balance": 152477.46,
+    "opened_at": "2024-09-28"
+  },
+  {
+    "_id": "ACC0067",
+    "customer_id": "CUST0067",
+    "type": "savings",
+    "balance": 32528.59,
+    "opened_at": "2025-04-01"
+  },
+  {
+    "_id": "ACC0068",
+    "customer_id": "CUST0068",
+    "type": "current",
+    "balance": 18520.23,
+    "opened_at": "2025-11-15"
+  },
+  {
+    "_id": "ACC0069",
+    "customer_id": "CUST0069",
+    "type": "savings",
+    "balance": 86452.53,
+    "opened_at": "2024-05-22"
+  },
+  {
+    "_id": "ACC0070",
+    "customer_id": "CUST0070",
+    "type": "salary",
+    "balance": 77279.97,
+    "opened_at": "2025-09-13"
+  },
+  {
+    "_id": "ACC0071",
+    "customer_id": "CUST0071",
+    "type": "savings",
+    "balance": 146401.16,
+    "opened_at": "2025-12-24"
+  },
+  {
+    "_id": "ACC0072",
+    "customer_id": "CUST0072",
+    "type": "savings",
+    "balance": 65120.41,
+    "opened_at": "2026-01-09"
+  },
+  {
+    "_id": "ACC0073",
+    "customer_id": "CUST0073",
+    "type": "savings",
+    "balance": 4565.31,
+    "opened_at": "2025-06-02"
+  },
+  {
+    "_id": "ACC0074",
+    "customer_id": "CUST0074",
+    "type": "savings",
+    "balance": 50515.8,
+    "opened_at": "2024-06-27"
+  },
+  {
+    "_id": "ACC0075",
+    "customer_id": "CUST0075",
+    "type": "current",
+    "balance": 63106.36,
+    "opened_at": "2024-09-11"
+  },
+  {
+    "_id": "ACC0076",
+    "customer_id": "CUST0076",
+    "type": "savings",
+    "balance": 118145.47,
+    "opened_at": "2024-02-04"
+  },
+  {
+    "_id": "ACC0077",
+    "customer_id": "CUST0077",
+    "type": "savings",
+    "balance": 10097.95,
+    "opened_at": "2025-10-02"
+  },
+  {
+    "_id": "ACC0078",
+    "customer_id": "CUST0078",
+    "type": "savings",
+    "balance": 145838.55,
+    "opened_at": "2025-03-11"
+  },
+  {
+    "_id": "ACC0079",
+    "customer_id": "CUST0079",
+    "type": "savings",
+    "balance": 87299.38,
+    "opened_at": "2024-11-18"
+  },
+  {
+    "_id": "ACC0080",
+    "customer_id": "CUST0080",
+    "type": "salary",
+    "balance": 69203.84,
+    "opened_at": "2025-08-14"
+  },
+  {
+    "_id": "ACC0081",
+    "customer_id": "CUST0081",
+    "type": "savings",
+    "balance": 150273.0,
+    "opened_at": "2024-05-07"
+  },
+  {
+    "_id": "ACC0082",
+    "customer_id": "CUST0082",
+    "type": "salary",
+    "balance": 183722.88,
+    "opened_at": "2024-04-24"
+  },
+  {
+    "_id": "ACC0083",
+    "customer_id": "CUST0083",
+    "type": "savings",
+    "balance": 45639.95,
+    "opened_at": "2024-02-20"
+  },
+  {
+    "_id": "ACC0084",
+    "customer_id": "CUST0084",
+    "type": "savings",
+    "balance": 5360.74,
+    "opened_at": "2024-01-29"
+  },
+  {
+    "_id": "ACC0085",
+    "customer_id": "CUST0085",
+    "type": "savings",
+    "balance": 73951.7,
+    "opened_at": "2024-03-27"
+  },
+  {
+    "_id": "ACC0086",
+    "customer_id": "CUST0086",
+    "type": "current",
+    "balance": 75663.29,
+    "opened_at": "2024-10-01"
+  },
+  {
+    "_id": "ACC0087",
+    "customer_id": "CUST0087",
+    "type": "savings",
+    "balance": 107411.95,
+    "opened_at": "2025-03-30"
+  },
+  {
+    "_id": "ACC0088",
+    "customer_id": "CUST0088",
+    "type": "savings",
+    "balance": 10544.11,
+    "opened_at": "2024-08-03"
+  },
+  {
+    "_id": "ACC0089",
+    "customer_id": "CUST0089",
+    "type": "savings",
+    "balance": 4928.61,
+    "opened_at": "2024-01-25"
+  },
+  {
+    "_id": "ACC0090",
+    "customer_id": "CUST0090",
+    "type": "savings",
+    "balance": 89418.54,
+    "opened_at": "2025-12-07"
+  },
+  {
+    "_id": "ACC0091",
+    "customer_id": "CUST0091",
+    "type": "savings",
+    "balance": 95404.87,
+    "opened_at": "2024-08-22"
+  },
+  {
+    "_id": "ACC0092",
+    "customer_id": "CUST0092",
+    "type": "savings",
+    "balance": 137462.27,
+    "opened_at": "2024-05-07"
+  },
+  {
+    "_id": "ACC0093",
+    "customer_id": "CUST0093",
+    "type": "savings",
+    "balance": 132671.25,
+    "opened_at": "2024-04-13"
+  },
+  {
+    "_id": "ACC0094",
+    "customer_id": "CUST0094",
+    "type": "savings",
+    "balance": 124936.76,
+    "opened_at": "2025-12-13"
+  },
+  {
+    "_id": "ACC0095",
+    "customer_id": "CUST0095",
+    "type": "savings",
+    "balance": 166299.89,
+    "opened_at": "2025-06-18"
+  },
+  {
+    "_id": "ACC0096",
+    "customer_id": "CUST0096",
+    "type": "savings",
+    "balance": 123921.89,
+    "opened_at": "2024-12-31"
+  },
+  {
+    "_id": "ACC0097",
+    "customer_id": "CUST0097",
+    "type": "savings",
+    "balance": 22146.48,
+    "opened_at": "2025-11-15"
+  },
+  {
+    "_id": "ACC0098",
+    "customer_id": "CUST0098",
+    "type": "savings",
+    "balance": 155813.82,
+    "opened_at": "2025-07-06"
+  },
+  {
+    "_id": "ACC0099",
+    "customer_id": "CUST0099",
+    "type": "savings",
+    "balance": 41132.96,
+    "opened_at": "2025-06-16"
+  },
+  {
+    "_id": "ACC0100",
+    "customer_id": "CUST0100",
+    "type": "savings",
+    "balance": 32914.35,
+    "opened_at": "2026-01-02"
+  },
+  {
+    "_id": "ACC0101",
+    "customer_id": "CUST0101",
+    "type": "savings",
+    "balance": 42331.1,
+    "opened_at": "2024-02-13"
+  },
+  {
+    "_id": "ACC0102",
+    "customer_id": "CUST0102",
+    "type": "savings",
+    "balance": 47666.55,
+    "opened_at": "2024-10-25"
+  },
+  {
+    "_id": "ACC0103",
+    "customer_id": "CUST0103",
+    "type": "savings",
+    "balance": 181469.13,
+    "opened_at": "2024-08-09"
+  },
+  {
+    "_id": "ACC0104",
+    "customer_id": "CUST0104",
+    "type": "savings",
+    "balance": 99326.7,
+    "opened_at": "2025-07-03"
+  },
+  {
+    "_id": "ACC0105",
+    "customer_id": "CUST0105",
+    "type": "savings",
+    "balance": 102829.36,
+    "opened_at": "2024-06-24"
+  },
+  {
+    "_id": "ACC0106",
+    "customer_id": "CUST0106",
+    "type": "current",
+    "balance": 181051.1,
+    "opened_at": "2024-12-15"
+  },
+  {
+    "_id": "ACC0107",
+    "customer_id": "CUST0107",
+    "type": "savings",
+    "balance": 197744.52,
+    "opened_at": "2025-05-08"
+  },
+  {
+    "_id": "ACC0108",
+    "customer_id": "CUST0108",
+    "type": "savings",
+    "balance": 10965.96,
+    "opened_at": "2024-03-04"
+  },
+  {
+    "_id": "ACC0109",
+    "customer_id": "CUST0109",
+    "type": "savings",
+    "balance": 8849.46,
+    "opened_at": "2024-06-05"
+  },
+  {
+    "_id": "ACC0110",
+    "customer_id": "CUST0110",
+    "type": "savings",
+    "balance": 135676.54,
+    "opened_at": "2024-04-05"
+  },
+  {
+    "_id": "ACC0111",
+    "customer_id": "CUST0111",
+    "type": "current",
+    "balance": 19904.7,
+    "opened_at": "2024-04-04"
+  },
+  {
+    "_id": "ACC0112",
+    "customer_id": "CUST0112",
+    "type": "current",
+    "balance": 2924.79,
+    "opened_at": "2024-06-23"
+  },
+  {
+    "_id": "ACC0113",
+    "customer_id": "CUST0113",
+    "type": "savings",
+    "balance": 34931.94,
+    "opened_at": "2024-06-09"
+  },
+  {
+    "_id": "ACC0114",
+    "customer_id": "CUST0114",
+    "type": "current",
+    "balance": 191062.74,
+    "opened_at": "2025-02-03"
+  },
+  {
+    "_id": "ACC0115",
+    "customer_id": "CUST0115",
+    "type": "current",
+    "balance": 19497.31,
+    "opened_at": "2024-10-14"
+  },
+  {
+    "_id": "ACC0116",
+    "customer_id": "CUST0116",
+    "type": "savings",
+    "balance": 23652.57,
+    "opened_at": "2025-09-05"
+  },
+  {
+    "_id": "ACC0117",
+    "customer_id": "CUST0117",
+    "type": "salary",
+    "balance": 55094.79,
+    "opened_at": "2025-05-21"
+  },
+  {
+    "_id": "ACC0118",
+    "customer_id": "CUST0118",
+    "type": "savings",
+    "balance": 96170.76,
+    "opened_at": "2025-11-18"
+  },
+  {
+    "_id": "ACC0119",
+    "customer_id": "CUST0119",
+    "type": "savings",
+    "balance": 159585.0,
+    "opened_at": "2024-10-23"
+  },
+  {
+    "_id": "ACC0120",
+    "customer_id": "CUST0120",
+    "type": "savings",
+    "balance": 145555.81,
+    "opened_at": "2025-12-06"
+  },
+  {
+    "_id": "ACC0121",
+    "customer_id": "CUST0121",
+    "type": "current",
+    "balance": 21638.91,
+    "opened_at": "2025-04-25"
+  },
+  {
+    "_id": "ACC0122",
+    "customer_id": "CUST0122",
+    "type": "savings",
+    "balance": 160650.69,
+    "opened_at": "2024-08-14"
+  },
+  {
+    "_id": "ACC0123",
+    "customer_id": "CUST0123",
+    "type": "savings",
+    "balance": 122653.31,
+    "opened_at": "2025-06-01"
+  },
+  {
+    "_id": "ACC0124",
+    "customer_id": "CUST0124",
+    "type": "savings",
+    "balance": 6734.43,
+    "opened_at": "2024-09-09"
+  },
+  {
+    "_id": "ACC0125",
+    "customer_id": "CUST0125",
+    "type": "current",
+    "balance": 145728.45,
+    "opened_at": "2024-06-03"
+  },
+  {
+    "_id": "ACC0126",
+    "customer_id": "CUST0126",
+    "type": "savings",
+    "balance": 184159.2,
+    "opened_at": "2024-01-29"
+  },
+  {
+    "_id": "ACC0127",
+    "customer_id": "CUST0127",
+    "type": "current",
+    "balance": 88696.89,
+    "opened_at": "2025-12-20"
+  },
+  {
+    "_id": "ACC0128",
+    "customer_id": "CUST0128",
+    "type": "savings",
+    "balance": 63533.35,
+    "opened_at": "2024-05-01"
+  },
+  {
+    "_id": "ACC0129",
+    "customer_id": "CUST0129",
+    "type": "current",
+    "balance": 105438.76,
+    "opened_at": "2024-06-30"
+  },
+  {
+    "_id": "ACC0130",
+    "customer_id": "CUST0130",
+    "type": "savings",
+    "balance": 113437.43,
+    "opened_at": "2025-04-29"
+  },
+  {
+    "_id": "ACC0131",
+    "customer_id": "CUST0131",
+    "type": "savings",
+    "balance": 68321.83,
+    "opened_at": "2025-02-27"
+  },
+  {
+    "_id": "ACC0132",
+    "customer_id": "CUST0132",
+    "type": "savings",
+    "balance": 124029.56,
+    "opened_at": "2024-12-20"
+  },
+  {
+    "_id": "ACC0133",
+    "customer_id": "CUST0133",
+    "type": "savings",
+    "balance": 50466.82,
+    "opened_at": "2024-08-20"
+  },
+  {
+    "_id": "ACC0134",
+    "customer_id": "CUST0134",
+    "type": "savings",
+    "balance": 128639.49,
+    "opened_at": "2024-06-01"
+  },
+  {
+    "_id": "ACC0135",
+    "customer_id": "CUST0135",
+    "type": "current",
+    "balance": 112110.5,
+    "opened_at": "2024-09-19"
+  },
+  {
+    "_id": "ACC0136",
+    "customer_id": "CUST0136",
+    "type": "savings",
+    "balance": 129036.34,
+    "opened_at": "2024-03-11"
+  },
+  {
+    "_id": "ACC0137",
+    "customer_id": "CUST0137",
+    "type": "savings",
+    "balance": 94388.5,
+    "opened_at": "2025-11-20"
+  },
+  {
+    "_id": "ACC0138",
+    "customer_id": "CUST0138",
+    "type": "current",
+    "balance": 15898.18,
+    "opened_at": "2025-12-18"
+  },
+  {
+    "_id": "ACC0139",
+    "customer_id": "CUST0139",
+    "type": "savings",
+    "balance": 66848.07,
+    "opened_at": "2025-10-09"
+  },
+  {
+    "_id": "ACC0140",
+    "customer_id": "CUST0140",
+    "type": "savings",
+    "balance": 45318.6,
+    "opened_at": "2026-01-08"
+  },
+  {
+    "_id": "ACC0141",
+    "customer_id": "CUST0141",
+    "type": "savings",
+    "balance": 163603.56,
+    "opened_at": "2025-03-03"
+  },
+  {
+    "_id": "ACC0142",
+    "customer_id": "CUST0142",
+    "type": "savings",
+    "balance": 160451.0,
+    "opened_at": "2025-05-14"
+  },
+  {
+    "_id": "ACC0143",
+    "customer_id": "CUST0143",
+    "type": "savings",
+    "balance": 100192.77,
+    "opened_at": "2024-03-12"
+  },
+  {
+    "_id": "ACC0144",
+    "customer_id": "CUST0144",
+    "type": "savings",
+    "balance": 99977.3,
+    "opened_at": "2024-03-13"
+  },
+  {
+    "_id": "ACC0145",
+    "customer_id": "CUST0145",
+    "type": "savings",
+    "balance": 81284.49,
+    "opened_at": "2024-04-21"
+  },
+  {
+    "_id": "ACC0146",
+    "customer_id": "CUST0146",
+    "type": "savings",
+    "balance": 1033.77,
+    "opened_at": "2025-11-06"
+  },
+  {
+    "_id": "ACC0147",
+    "customer_id": "CUST0147",
+    "type": "current",
+    "balance": 192671.08,
+    "opened_at": "2024-01-27"
+  },
+  {
+    "_id": "ACC0148",
+    "customer_id": "CUST0148",
+    "type": "savings",
+    "balance": 102159.21,
+    "opened_at": "2025-07-03"
+  },
+  {
+    "_id": "ACC0149",
+    "customer_id": "CUST0149",
+    "type": "savings",
+    "balance": 91785.38,
+    "opened_at": "2025-08-14"
+  },
+  {
+    "_id": "ACC0150",
+    "customer_id": "CUST0150",
+    "type": "savings",
+    "balance": 11800.77,
+    "opened_at": "2025-04-05"
+  },
+  {
+    "_id": "ACC0151",
+    "customer_id": "CUST0151",
+    "type": "current",
+    "balance": 67062.55,
+    "opened_at": "2025-04-09"
+  },
+  {
+    "_id": "ACC0152",
+    "customer_id": "CUST0152",
+    "type": "savings",
+    "balance": 95153.6,
+    "opened_at": "2024-08-18"
+  },
+  {
+    "_id": "ACC0153",
+    "customer_id": "CUST0153",
+    "type": "savings",
+    "balance": 91053.96,
+    "opened_at": "2025-03-19"
+  },
+  {
+    "_id": "ACC0154",
+    "customer_id": "CUST0154",
+    "type": "current",
+    "balance": 45127.67,
+    "opened_at": "2025-02-20"
+  },
+  {
+    "_id": "ACC0155",
+    "customer_id": "CUST0155",
+    "type": "savings",
+    "balance": 127098.57,
+    "opened_at": "2025-04-09"
+  },
+  {
+    "_id": "ACC0156",
+    "customer_id": "CUST0156",
+    "type": "savings",
+    "balance": 104875.03,
+    "opened_at": "2025-12-29"
+  },
+  {
+    "_id": "ACC0157",
+    "customer_id": "CUST0157",
+    "type": "savings",
+    "balance": 179478.55,
+    "opened_at": "2024-11-28"
+  },
+  {
+    "_id": "ACC0158",
+    "customer_id": "CUST0158",
+    "type": "savings",
+    "balance": 143654.37,
+    "opened_at": "2025-01-15"
+  },
+  {
+    "_id": "ACC0159",
+    "customer_id": "CUST0159",
+    "type": "savings",
+    "balance": 51603.57,
+    "opened_at": "2025-11-08"
+  },
+  {
+    "_id": "ACC0160",
+    "customer_id": "CUST0160",
+    "type": "savings",
+    "balance": 186113.04,
+    "opened_at": "2025-10-16"
+  },
+  {
+    "_id": "ACC0161",
+    "customer_id": "CUST0161",
+    "type": "savings",
+    "balance": 165086.27,
+    "opened_at": "2024-03-04"
+  },
+  {
+    "_id": "ACC0162",
+    "customer_id": "CUST0162",
+    "type": "current",
+    "balance": 22445.38,
+    "opened_at": "2025-11-04"
+  },
+  {
+    "_id": "ACC0163",
+    "customer_id": "CUST0163",
+    "type": "savings",
+    "balance": 127014.85,
+    "opened_at": "2025-08-29"
+  },
+  {
+    "_id": "ACC0164",
+    "customer_id": "CUST0164",
+    "type": "savings",
+    "balance": 154656.89,
+    "opened_at": "2024-12-31"
+  },
+  {
+    "_id": "ACC0165",
+    "customer_id": "CUST0165",
+    "type": "savings",
+    "balance": 118273.92,
+    "opened_at": "2025-04-10"
+  },
+  {
+    "_id": "ACC0166",
+    "customer_id": "CUST0166",
+    "type": "savings",
+    "balance": 100266.9,
+    "opened_at": "2025-09-20"
+  },
+  {
+    "_id": "ACC0167",
+    "customer_id": "CUST0167",
+    "type": "current",
+    "balance": 111092.04,
+    "opened_at": "2025-11-16"
+  },
+  {
+    "_id": "ACC0168",
+    "customer_id": "CUST0168",
+    "type": "current",
+    "balance": 97103.46,
+    "opened_at": "2025-11-18"
+  },
+  {
+    "_id": "ACC0169",
+    "customer_id": "CUST0169",
+    "type": "current",
+    "balance": 182126.12,
+    "opened_at": "2024-12-24"
+  },
+  {
+    "_id": "ACC0170",
+    "customer_id": "CUST0170",
+    "type": "savings",
+    "balance": 146368.44,
+    "opened_at": "2024-07-07"
+  },
+  {
+    "_id": "ACC0171",
+    "customer_id": "CUST0171",
+    "type": "savings",
+    "balance": 131846.84,
+    "opened_at": "2024-05-02"
+  },
+  {
+    "_id": "ACC0172",
+    "customer_id": "CUST0172",
+    "type": "current",
+    "balance": 101317.91,
+    "opened_at": "2024-06-27"
+  },
+  {
+    "_id": "ACC0173",
+    "customer_id": "CUST0173",
+    "type": "savings",
+    "balance": 122189.75,
+    "opened_at": "2025-04-21"
+  },
+  {
+    "_id": "ACC0174",
+    "customer_id": "CUST0174",
+    "type": "current",
+    "balance": 55445.58,
+    "opened_at": "2024-08-16"
+  },
+  {
+    "_id": "ACC0175",
+    "customer_id": "CUST0175",
+    "type": "savings",
+    "balance": 59540.53,
+    "opened_at": "2024-07-09"
+  },
+  {
+    "_id": "ACC0176",
+    "customer_id": "CUST0176",
+    "type": "savings",
+    "balance": 83136.35,
+    "opened_at": "2025-07-04"
+  },
+  {
+    "_id": "ACC0177",
+    "customer_id": "CUST0177",
+    "type": "current",
+    "balance": 102946.63,
+    "opened_at": "2025-04-18"
+  },
+  {
+    "_id": "ACC0178",
+    "customer_id": "CUST0178",
+    "type": "current",
+    "balance": 172280.8,
+    "opened_at": "2025-02-08"
+  },
+  {
+    "_id": "ACC0179",
+    "customer_id": "CUST0179",
+    "type": "current",
+    "balance": 111162.73,
+    "opened_at": "2024-06-04"
+  },
+  {
+    "_id": "ACC0180",
+    "customer_id": "CUST0180",
+    "type": "savings",
+    "balance": 125209.35,
+    "opened_at": "2025-10-01"
+  },
+  {
+    "_id": "ACC0181",
+    "customer_id": "CUST0181",
+    "type": "savings",
+    "balance": 184317.16,
+    "opened_at": "2024-10-26"
+  },
+  {
+    "_id": "ACC0182",
+    "customer_id": "CUST0182",
+    "type": "salary",
+    "balance": 130367.19,
+    "opened_at": "2024-05-23"
+  },
+  {
+    "_id": "ACC0183",
+    "customer_id": "CUST0183",
+    "type": "savings",
+    "balance": 108955.8,
+    "opened_at": "2024-06-16"
+  },
+  {
+    "_id": "ACC0184",
+    "customer_id": "CUST0184",
+    "type": "savings",
+    "balance": 23965.65,
+    "opened_at": "2025-01-15"
+  },
+  {
+    "_id": "ACC0185",
+    "customer_id": "CUST0185",
+    "type": "savings",
+    "balance": 116978.45,
+    "opened_at": "2024-02-16"
+  },
+  {
+    "_id": "ACC0186",
+    "customer_id": "CUST0186",
+    "type": "savings",
+    "balance": 84078.11,
+    "opened_at": "2024-03-09"
+  },
+  {
+    "_id": "ACC0187",
+    "customer_id": "CUST0187",
+    "type": "current",
+    "balance": 107246.66,
+    "opened_at": "2024-08-02"
+  },
+  {
+    "_id": "ACC0188",
+    "customer_id": "CUST0188",
+    "type": "current",
+    "balance": 161852.65,
+    "opened_at": "2024-02-28"
+  },
+  {
+    "_id": "ACC0189",
+    "customer_id": "CUST0189",
+    "type": "savings",
+    "balance": 76793.19,
+    "opened_at": "2025-10-25"
+  },
+  {
+    "_id": "ACC0190",
+    "customer_id": "CUST0190",
+    "type": "savings",
+    "balance": 40780.58,
+    "opened_at": "2025-03-09"
+  },
+  {
+    "_id": "ACC0191",
+    "customer_id": "CUST0191",
+    "type": "current",
+    "balance": 196722.95,
+    "opened_at": "2024-04-15"
+  },
+  {
+    "_id": "ACC0192",
+    "customer_id": "CUST0192",
+    "type": "savings",
+    "balance": 168036.98,
+    "opened_at": "2024-05-07"
+  },
+  {
+    "_id": "ACC0193",
+    "customer_id": "CUST0193",
+    "type": "current",
+    "balance": 41596.18,
+    "opened_at": "2025-04-19"
+  },
+  {
+    "_id": "ACC0194",
+    "customer_id": "CUST0194",
+    "type": "savings",
+    "balance": 162991.22,
+    "opened_at": "2025-11-21"
+  },
+  {
+    "_id": "ACC0195",
+    "customer_id": "CUST0195",
+    "type": "savings",
+    "balance": 135429.68,
+    "opened_at": "2024-05-26"
+  },
+  {
+    "_id": "ACC0196",
+    "customer_id": "CUST0196",
+    "type": "current",
+    "balance": 148740.13,
+    "opened_at": "2025-04-22"
+  },
+  {
+    "_id": "ACC0197",
+    "customer_id": "CUST0197",
+    "type": "savings",
+    "balance": 102673.54,
+    "opened_at": "2025-11-21"
+  },
+  {
+    "_id": "ACC0198",
+    "customer_id": "CUST0198",
+    "type": "current",
+    "balance": 58240.09,
+    "opened_at": "2024-10-14"
+  },
+  {
+    "_id": "ACC0199",
+    "customer_id": "CUST0199",
+    "type": "savings",
+    "balance": 76934.94,
+    "opened_at": "2024-03-29"
+  },
+  {
+    "_id": "ACC0200",
+    "customer_id": "CUST0200",
+    "type": "salary",
+    "balance": 195188.72,
+    "opened_at": "2024-03-17"
+  },
+  {
+    "_id": "ACC0201",
+    "customer_id": "CUST0201",
+    "type": "salary",
+    "balance": 11706.64,
+    "opened_at": "2025-01-28"
+  },
+  {
+    "_id": "ACC0202",
+    "customer_id": "CUST0202",
+    "type": "savings",
+    "balance": 124491.78,
+    "opened_at": "2025-09-02"
+  },
+  {
+    "_id": "ACC0203",
+    "customer_id": "CUST0203",
+    "type": "current",
+    "balance": 89169.71,
+    "opened_at": "2025-03-03"
+  },
+  {
+    "_id": "ACC0204",
+    "customer_id": "CUST0204",
+    "type": "salary",
+    "balance": 141221.18,
+    "opened_at": "2025-08-07"
+  },
+  {
+    "_id": "ACC0205",
+    "customer_id": "CUST0205",
+    "type": "savings",
+    "balance": 118088.68,
+    "opened_at": "2024-06-28"
+  },
+  {
+    "_id": "ACC0206",
+    "customer_id": "CUST0206",
+    "type": "savings",
+    "balance": 155453.2,
+    "opened_at": "2024-04-20"
+  },
+  {
+    "_id": "ACC0207",
+    "customer_id": "CUST0207",
+    "type": "savings",
+    "balance": 90314.17,
+    "opened_at": "2025-09-07"
+  },
+  {
+    "_id": "ACC0208",
+    "customer_id": "CUST0208",
+    "type": "savings",
+    "balance": 192532.57,
+    "opened_at": "2025-11-10"
+  },
+  {
+    "_id": "ACC0209",
+    "customer_id": "CUST0209",
+    "type": "savings",
+    "balance": 76062.45,
+    "opened_at": "2025-10-17"
+  },
+  {
+    "_id": "ACC0210",
+    "customer_id": "CUST0210",
+    "type": "savings",
+    "balance": 53583.68,
+    "opened_at": "2024-03-20"
+  },
+  {
+    "_id": "ACC0211",
+    "customer_id": "CUST0211",
+    "type": "savings",
+    "balance": 51748.21,
+    "opened_at": "2024-12-02"
+  },
+  {
+    "_id": "ACC0212",
+    "customer_id": "CUST0212",
+    "type": "savings",
+    "balance": 187561.4,
+    "opened_at": "2024-09-05"
+  },
+  {
+    "_id": "ACC0213",
+    "customer_id": "CUST0213",
+    "type": "savings",
+    "balance": 65203.38,
+    "opened_at": "2025-09-23"
+  },
+  {
+    "_id": "ACC0214",
+    "customer_id": "CUST0214",
+    "type": "current",
+    "balance": 125447.97,
+    "opened_at": "2025-07-07"
+  },
+  {
+    "_id": "ACC0215",
+    "customer_id": "CUST0215",
+    "type": "savings",
+    "balance": 98619.64,
+    "opened_at": "2024-09-21"
+  },
+  {
+    "_id": "ACC0216",
+    "customer_id": "CUST0216",
+    "type": "savings",
+    "balance": 15503.28,
+    "opened_at": "2025-07-25"
+  },
+  {
+    "_id": "ACC0217",
+    "customer_id": "CUST0217",
+    "type": "savings",
+    "balance": 44772.44,
+    "opened_at": "2024-02-21"
+  },
+  {
+    "_id": "ACC0218",
+    "customer_id": "CUST0218",
+    "type": "savings",
+    "balance": 157465.39,
+    "opened_at": "2025-07-22"
+  },
+  {
+    "_id": "ACC0219",
+    "customer_id": "CUST0219",
+    "type": "savings",
+    "balance": 107870.15,
+    "opened_at": "2025-01-11"
+  },
+  {
+    "_id": "ACC0220",
+    "customer_id": "CUST0220",
+    "type": "savings",
+    "balance": 176795.95,
+    "opened_at": "2026-01-21"
+  },
+  {
+    "_id": "ACC0221",
+    "customer_id": "CUST0221",
+    "type": "savings",
+    "balance": 72798.77,
+    "opened_at": "2025-09-25"
+  },
+  {
+    "_id": "ACC0222",
+    "customer_id": "CUST0222",
+    "type": "salary",
+    "balance": 124037.84,
+    "opened_at": "2025-08-14"
+  },
+  {
+    "_id": "ACC0223",
+    "customer_id": "CUST0223",
+    "type": "salary",
+    "balance": 164913.99,
+    "opened_at": "2025-12-25"
+  },
+  {
+    "_id": "ACC0224",
+    "customer_id": "CUST0224",
+    "type": "savings",
+    "balance": 134118.76,
+    "opened_at": "2024-03-07"
+  },
+  {
+    "_id": "ACC0225",
+    "customer_id": "CUST0225",
+    "type": "savings",
+    "balance": 128810.61,
+    "opened_at": "2025-12-27"
+  },
+  {
+    "_id": "ACC0226",
+    "customer_id": "CUST0226",
+    "type": "savings",
+    "balance": 191820.47,
+    "opened_at": "2024-08-17"
+  },
+  {
+    "_id": "ACC0227",
+    "customer_id": "CUST0227",
+    "type": "current",
+    "balance": 76893.15,
+    "opened_at": "2024-12-23"
+  },
+  {
+    "_id": "ACC0228",
+    "customer_id": "CUST0228",
+    "type": "salary",
+    "balance": 77789.31,
+    "opened_at": "2025-01-14"
+  },
+  {
+    "_id": "ACC0229",
+    "customer_id": "CUST0229",
+    "type": "current",
+    "balance": 5916.44,
+    "opened_at": "2024-11-16"
+  },
+  {
+    "_id": "ACC0230",
+    "customer_id": "CUST0230",
+    "type": "current",
+    "balance": 75616.65,
+    "opened_at": "2024-05-29"
+  },
+  {
+    "_id": "ACC0231",
+    "customer_id": "CUST0231",
+    "type": "savings",
+    "balance": 97874.14,
+    "opened_at": "2024-10-30"
+  },
+  {
+    "_id": "ACC0232",
+    "customer_id": "CUST0232",
+    "type": "current",
+    "balance": 39309.97,
+    "opened_at": "2025-07-21"
+  },
+  {
+    "_id": "ACC0233",
+    "customer_id": "CUST0233",
+    "type": "savings",
+    "balance": 20095.33,
+    "opened_at": "2025-12-16"
+  },
+  {
+    "_id": "ACC0234",
+    "customer_id": "CUST0234",
+    "type": "current",
+    "balance": 107107.96,
+    "opened_at": "2025-12-18"
+  },
+  {
+    "_id": "ACC0235",
+    "customer_id": "CUST0235",
+    "type": "savings",
+    "balance": 134396.69,
+    "opened_at": "2025-11-21"
+  },
+  {
+    "_id": "ACC0236",
+    "customer_id": "CUST0236",
+    "type": "savings",
+    "balance": 137395.63,
+    "opened_at": "2025-09-05"
+  },
+  {
+    "_id": "ACC0237",
+    "customer_id": "CUST0237",
+    "type": "savings",
+    "balance": 108013.09,
+    "opened_at": "2025-03-04"
+  },
+  {
+    "_id": "ACC0238",
+    "customer_id": "CUST0238",
+    "type": "current",
+    "balance": 148533.63,
+    "opened_at": "2024-12-22"
+  },
+  {
+    "_id": "ACC0239",
+    "customer_id": "CUST0239",
+    "type": "savings",
+    "balance": 188010.47,
+    "opened_at": "2024-07-08"
+  },
+  {
+    "_id": "ACC0240",
+    "customer_id": "CUST0240",
+    "type": "savings",
+    "balance": 5726.84,
+    "opened_at": "2025-12-13"
+  },
+  {
+    "_id": "ACC0241",
+    "customer_id": "CUST0241",
+    "type": "savings",
+    "balance": 18416.66,
+    "opened_at": "2025-02-15"
+  },
+  {
+    "_id": "ACC0242",
+    "customer_id": "CUST0242",
+    "type": "savings",
+    "balance": 51129.69,
+    "opened_at": "2024-08-31"
+  },
+  {
+    "_id": "ACC0243",
+    "customer_id": "CUST0243",
+    "type": "savings",
+    "balance": 46301.48,
+    "opened_at": "2025-01-11"
+  },
+  {
+    "_id": "ACC0244",
+    "customer_id": "CUST0244",
+    "type": "savings",
+    "balance": 90774.01,
+    "opened_at": "2024-05-12"
+  },
+  {
+    "_id": "ACC0245",
+    "customer_id": "CUST0245",
+    "type": "savings",
+    "balance": 4361.3,
+    "opened_at": "2025-10-03"
+  },
+  {
+    "_id": "ACC0246",
+    "customer_id": "CUST0246",
+    "type": "savings",
+    "balance": 2173.89,
+    "opened_at": "2025-04-25"
+  },
+  {
+    "_id": "ACC0247",
+    "customer_id": "CUST0247",
+    "type": "savings",
+    "balance": 151436.16,
+    "opened_at": "2025-07-21"
+  },
+  {
+    "_id": "ACC0248",
+    "customer_id": "CUST0248",
+    "type": "savings",
+    "balance": 169802.0,
+    "opened_at": "2025-06-17"
+  },
+  {
+    "_id": "ACC0249",
+    "customer_id": "CUST0249",
+    "type": "salary",
+    "balance": 22120.97,
+    "opened_at": "2025-05-13"
+  },
+  {
+    "_id": "ACC0250",
+    "customer_id": "CUST0250",
+    "type": "savings",
+    "balance": 121706.6,
+    "opened_at": "2024-03-24"
+  },
+  {
+    "_id": "ACC0251",
+    "customer_id": "CUST0251",
+    "type": "current",
+    "balance": 88097.55,
+    "opened_at": "2025-05-10"
+  },
+  {
+    "_id": "ACC0252",
+    "customer_id": "CUST0252",
+    "type": "current",
+    "balance": 7133.01,
+    "opened_at": "2025-01-31"
+  },
+  {
+    "_id": "ACC0253",
+    "customer_id": "CUST0253",
+    "type": "savings",
+    "balance": 28139.91,
+    "opened_at": "2025-01-03"
+  },
+  {
+    "_id": "ACC0254",
+    "customer_id": "CUST0254",
+    "type": "current",
+    "balance": 170044.02,
+    "opened_at": "2024-02-02"
+  },
+  {
+    "_id": "ACC0255",
+    "customer_id": "CUST0255",
+    "type": "salary",
+    "balance": 29671.03,
+    "opened_at": "2025-05-07"
+  },
+  {
+    "_id": "ACC0256",
+    "customer_id": "CUST0256",
+    "type": "current",
+    "balance": 193107.71,
+    "opened_at": "2024-02-13"
+  },
+  {
+    "_id": "ACC0257",
+    "customer_id": "CUST0257",
+    "type": "current",
+    "balance": 75252.97,
+    "opened_at": "2024-03-16"
+  },
+  {
+    "_id": "ACC0258",
+    "customer_id": "CUST0258",
+    "type": "savings",
+    "balance": 175078.62,
+    "opened_at": "2024-10-27"
+  },
+  {
+    "_id": "ACC0259",
+    "customer_id": "CUST0259",
+    "type": "savings",
+    "balance": 2000.94,
+    "opened_at": "2024-06-14"
+  },
+  {
+    "_id": "ACC0260",
+    "customer_id": "CUST0260",
+    "type": "savings",
+    "balance": 109957.56,
+    "opened_at": "2025-11-28"
+  },
+  {
+    "_id": "ACC0261",
+    "customer_id": "CUST0261",
+    "type": "savings",
+    "balance": 149911.02,
+    "opened_at": "2025-03-30"
+  },
+  {
+    "_id": "ACC0262",
+    "customer_id": "CUST0262",
+    "type": "current",
+    "balance": 43135.65,
+    "opened_at": "2026-01-22"
+  },
+  {
+    "_id": "ACC0263",
+    "customer_id": "CUST0263",
+    "type": "savings",
+    "balance": 102997.99,
+    "opened_at": "2024-09-10"
+  },
+  {
+    "_id": "ACC0264",
+    "customer_id": "CUST0264",
+    "type": "savings",
+    "balance": 123760.1,
+    "opened_at": "2024-07-22"
+  },
+  {
+    "_id": "ACC0265",
+    "customer_id": "CUST0265",
+    "type": "savings",
+    "balance": 37090.24,
+    "opened_at": "2025-09-18"
+  },
+  {
+    "_id": "ACC0266",
+    "customer_id": "CUST0266",
+    "type": "savings",
+    "balance": 11823.27,
+    "opened_at": "2024-08-06"
+  },
+  {
+    "_id": "ACC0267",
+    "customer_id": "CUST0267",
+    "type": "salary",
+    "balance": 198868.3,
+    "opened_at": "2024-09-16"
+  },
+  {
+    "_id": "ACC0268",
+    "customer_id": "CUST0268",
+    "type": "savings",
+    "balance": 15555.77,
+    "opened_at": "2025-06-30"
+  },
+  {
+    "_id": "ACC0269",
+    "customer_id": "CUST0269",
+    "type": "savings",
+    "balance": 20542.28,
+    "opened_at": "2024-12-09"
+  },
+  {
+    "_id": "ACC0270",
+    "customer_id": "CUST0270",
+    "type": "savings",
+    "balance": 190356.44,
+    "opened_at": "2024-06-16"
+  },
+  {
+    "_id": "ACC0271",
+    "customer_id": "CUST0271",
+    "type": "savings",
+    "balance": 131439.12,
+    "opened_at": "2025-05-18"
+  },
+  {
+    "_id": "ACC0272",
+    "customer_id": "CUST0272",
+    "type": "savings",
+    "balance": 14891.97,
+    "opened_at": "2025-07-19"
+  },
+  {
+    "_id": "ACC0273",
+    "customer_id": "CUST0273",
+    "type": "savings",
+    "balance": 90678.55,
+    "opened_at": "2024-01-26"
+  },
+  {
+    "_id": "ACC0274",
+    "customer_id": "CUST0274",
+    "type": "savings",
+    "balance": 138998.17,
+    "opened_at": "2024-03-06"
+  },
+  {
+    "_id": "ACC0275",
+    "customer_id": "CUST0275",
+    "type": "savings",
+    "balance": 73534.19,
+    "opened_at": "2024-01-28"
+  },
+  {
+    "_id": "ACC0276",
+    "customer_id": "CUST0276",
+    "type": "salary",
+    "balance": 34559.26,
+    "opened_at": "2024-07-12"
+  },
+  {
+    "_id": "ACC0277",
+    "customer_id": "CUST0277",
+    "type": "savings",
+    "balance": 45083.62,
+    "opened_at": "2025-01-20"
+  },
+  {
+    "_id": "ACC0278",
+    "customer_id": "CUST0278",
+    "type": "savings",
+    "balance": 56059.29,
+    "opened_at": "2025-12-25"
+  },
+  {
+    "_id": "ACC0279",
+    "customer_id": "CUST0279",
+    "type": "savings",
+    "balance": 146861.59,
+    "opened_at": "2025-08-16"
+  },
+  {
+    "_id": "ACC0280",
+    "customer_id": "CUST0280",
+    "type": "savings",
+    "balance": 89626.24,
+    "opened_at": "2024-05-01"
+  },
+  {
+    "_id": "ACC0281",
+    "customer_id": "CUST0281",
+    "type": "savings",
+    "balance": 110782.69,
+    "opened_at": "2024-02-22"
+  },
+  {
+    "_id": "ACC0282",
+    "customer_id": "CUST0282",
+    "type": "savings",
+    "balance": 17312.76,
+    "opened_at": "2024-08-08"
+  },
+  {
+    "_id": "ACC0283",
+    "customer_id": "CUST0283",
+    "type": "current",
+    "balance": 28860.33,
+    "opened_at": "2025-07-24"
+  },
+  {
+    "_id": "ACC0284",
+    "customer_id": "CUST0284",
+    "type": "savings",
+    "balance": 146975.38,
+    "opened_at": "2024-04-30"
+  },
+  {
+    "_id": "ACC0285",
+    "customer_id": "CUST0285",
+    "type": "savings",
+    "balance": 16004.59,
+    "opened_at": "2025-10-11"
+  },
+  {
+    "_id": "ACC0286",
+    "customer_id": "CUST0286",
+    "type": "current",
+    "balance": 126693.67,
+    "opened_at": "2025-09-17"
+  },
+  {
+    "_id": "ACC0287",
+    "customer_id": "CUST0287",
+    "type": "savings",
+    "balance": 81621.76,
+    "opened_at": "2024-06-24"
+  },
+  {
+    "_id": "ACC0288",
+    "customer_id": "CUST0288",
+    "type": "savings",
+    "balance": 8294.61,
+    "opened_at": "2024-11-19"
+  },
+  {
+    "_id": "ACC0289",
+    "customer_id": "CUST0289",
+    "type": "savings",
+    "balance": 199746.91,
+    "opened_at": "2024-02-11"
+  },
+  {
+    "_id": "ACC0290",
+    "customer_id": "CUST0290",
+    "type": "savings",
+    "balance": 30577.96,
+    "opened_at": "2025-03-11"
+  },
+  {
+    "_id": "ACC0291",
+    "customer_id": "CUST0291",
+    "type": "savings",
+    "balance": 154656.82,
+    "opened_at": "2025-02-16"
+  },
+  {
+    "_id": "ACC0292",
+    "customer_id": "CUST0292",
+    "type": "current",
+    "balance": 27642.37,
+    "opened_at": "2025-03-23"
+  },
+  {
+    "_id": "ACC0293",
+    "customer_id": "CUST0293",
+    "type": "savings",
+    "balance": 79960.25,
+    "opened_at": "2025-10-09"
+  },
+  {
+    "_id": "ACC0294",
+    "customer_id": "CUST0294",
+    "type": "savings",
+    "balance": 48537.28,
+    "opened_at": "2025-01-02"
+  },
+  {
+    "_id": "ACC0295",
+    "customer_id": "CUST0295",
+    "type": "current",
+    "balance": 123193.16,
+    "opened_at": "2024-11-22"
+  },
+  {
+    "_id": "ACC0296",
+    "customer_id": "CUST0296",
+    "type": "current",
+    "balance": 28933.77,
+    "opened_at": "2025-01-25"
+  },
+  {
+    "_id": "ACC0297",
+    "customer_id": "CUST0297",
+    "type": "savings",
+    "balance": 189793.65,
+    "opened_at": "2025-08-07"
+  },
+  {
+    "_id": "ACC0298",
+    "customer_id": "CUST0298",
+    "type": "current",
+    "balance": 30093.61,
+    "opened_at": "2025-03-17"
+  },
+  {
+    "_id": "ACC0299",
+    "customer_id": "CUST0299",
+    "type": "savings",
+    "balance": 72400.31,
+    "opened_at": "2025-01-28"
+  },
+  {
+    "_id": "ACC0300",
+    "customer_id": "CUST0300",
+    "type": "current",
+    "balance": 47118.23,
+    "opened_at": "2024-02-15"
+  },
+  {
+    "_id": "ACC0301",
+    "customer_id": "CUST0301",
+    "type": "savings",
+    "balance": 9518.88,
+    "opened_at": "2024-09-17"
+  },
+  {
+    "_id": "ACC0302",
+    "customer_id": "CUST0302",
+    "type": "savings",
+    "balance": 158500.63,
+    "opened_at": "2024-12-17"
+  },
+  {
+    "_id": "ACC0303",
+    "customer_id": "CUST0303",
+    "type": "savings",
+    "balance": 91474.05,
+    "opened_at": "2025-01-19"
+  },
+  {
+    "_id": "ACC0304",
+    "customer_id": "CUST0304",
+    "type": "savings",
+    "balance": 130056.42,
+    "opened_at": "2024-05-28"
+  },
+  {
+    "_id": "ACC0305",
+    "customer_id": "CUST0305",
+    "type": "current",
+    "balance": 104753.21,
+    "opened_at": "2026-01-09"
+  },
+  {
+    "_id": "ACC0306",
+    "customer_id": "CUST0306",
+    "type": "savings",
+    "balance": 148640.03,
+    "opened_at": "2024-05-09"
+  },
+  {
+    "_id": "ACC0307",
+    "customer_id": "CUST0307",
+    "type": "savings",
+    "balance": 35596.11,
+    "opened_at": "2025-04-01"
+  },
+  {
+    "_id": "ACC0308",
+    "customer_id": "CUST0308",
+    "type": "savings",
+    "balance": 117948.09,
+    "opened_at": "2024-02-27"
+  },
+  {
+    "_id": "ACC0309",
+    "customer_id": "CUST0309",
+    "type": "current",
+    "balance": 103815.92,
+    "opened_at": "2024-10-24"
+  },
+  {
+    "_id": "ACC0310",
+    "customer_id": "CUST0310",
+    "type": "salary",
+    "balance": 45356.95,
+    "opened_at": "2024-08-01"
+  },
+  {
+    "_id": "ACC0311",
+    "customer_id": "CUST0311",
+    "type": "savings",
+    "balance": 173676.16,
+    "opened_at": "2025-02-20"
+  },
+  {
+    "_id": "ACC0312",
+    "customer_id": "CUST0312",
+    "type": "current",
+    "balance": 177547.22,
+    "opened_at": "2025-09-21"
+  },
+  {
+    "_id": "ACC0313",
+    "customer_id": "CUST0313",
+    "type": "savings",
+    "balance": 28654.69,
+    "opened_at": "2024-05-29"
+  },
+  {
+    "_id": "ACC0314",
+    "customer_id": "CUST0314",
+    "type": "savings",
+    "balance": 103393.71,
+    "opened_at": "2025-07-12"
+  },
+  {
+    "_id": "ACC0315",
+    "customer_id": "CUST0315",
+    "type": "savings",
+    "balance": 38194.23,
+    "opened_at": "2025-04-17"
+  },
+  {
+    "_id": "ACC0316",
+    "customer_id": "CUST0316",
+    "type": "savings",
+    "balance": 163574.06,
+    "opened_at": "2025-12-23"
+  },
+  {
+    "_id": "ACC0317",
+    "customer_id": "CUST0317",
+    "type": "savings",
+    "balance": 162423.35,
+    "opened_at": "2024-02-26"
+  },
+  {
+    "_id": "ACC0318",
+    "customer_id": "CUST0318",
+    "type": "savings",
+    "balance": 135370.66,
+    "opened_at": "2025-06-22"
+  },
+  {
+    "_id": "ACC0319",
+    "customer_id": "CUST0319",
+    "type": "savings",
+    "balance": 33088.01,
+    "opened_at": "2025-04-22"
+  },
+  {
+    "_id": "ACC0320",
+    "customer_id": "CUST0320",
+    "type": "savings",
+    "balance": 49490.39,
+    "opened_at": "2024-02-07"
+  },
+  {
+    "_id": "ACC0321",
+    "customer_id": "CUST0321",
+    "type": "savings",
+    "balance": 33064.7,
+    "opened_at": "2025-09-14"
+  },
+  {
+    "_id": "ACC0322",
+    "customer_id": "CUST0322",
+    "type": "savings",
+    "balance": 178268.74,
+    "opened_at": "2024-03-05"
+  },
+  {
+    "_id": "ACC0323",
+    "customer_id": "CUST0323",
+    "type": "savings",
+    "balance": 52393.67,
+    "opened_at": "2024-10-05"
+  },
+  {
+    "_id": "ACC0324",
+    "customer_id": "CUST0324",
+    "type": "savings",
+    "balance": 81685.81,
+    "opened_at": "2024-06-02"
+  },
+  {
+    "_id": "ACC0325",
+    "customer_id": "CUST0325",
+    "type": "savings",
+    "balance": 175823.29,
+    "opened_at": "2025-03-23"
+  },
+  {
+    "_id": "ACC0326",
+    "customer_id": "CUST0326",
+    "type": "savings",
+    "balance": 57407.47,
+    "opened_at": "2025-05-16"
+  },
+  {
+    "_id": "ACC0327",
+    "customer_id": "CUST0327",
+    "type": "savings",
+    "balance": 121698.65,
+    "opened_at": "2024-03-20"
+  },
+  {
+    "_id": "ACC0328",
+    "customer_id": "CUST0328",
+    "type": "current",
+    "balance": 34942.79,
+    "opened_at": "2024-11-12"
+  },
+  {
+    "_id": "ACC0329",
+    "customer_id": "CUST0329",
+    "type": "savings",
+    "balance": 29399.72,
+    "opened_at": "2024-04-29"
+  },
+  {
+    "_id": "ACC0330",
+    "customer_id": "CUST0330",
+    "type": "current",
+    "balance": 37194.95,
+    "opened_at": "2025-04-04"
+  },
+  {
+    "_id": "ACC0331",
+    "customer_id": "CUST0331",
+    "type": "savings",
+    "balance": 34376.62,
+    "opened_at": "2025-01-25"
+  },
+  {
+    "_id": "ACC0332",
+    "customer_id": "CUST0332",
+    "type": "savings",
+    "balance": 91240.56,
+    "opened_at": "2026-01-04"
+  },
+  {
+    "_id": "ACC0333",
+    "customer_id": "CUST0333",
+    "type": "savings",
+    "balance": 76264.06,
+    "opened_at": "2024-05-19"
+  },
+  {
+    "_id": "ACC0334",
+    "customer_id": "CUST0334",
+    "type": "savings",
+    "balance": 41267.36,
+    "opened_at": "2024-06-11"
+  },
+  {
+    "_id": "ACC0335",
+    "customer_id": "CUST0335",
+    "type": "salary",
+    "balance": 137189.2,
+    "opened_at": "2024-11-28"
+  },
+  {
+    "_id": "ACC0336",
+    "customer_id": "CUST0336",
+    "type": "savings",
+    "balance": 20163.42,
+    "opened_at": "2025-11-11"
+  },
+  {
+    "_id": "ACC0337",
+    "customer_id": "CUST0337",
+    "type": "salary",
+    "balance": 120362.95,
+    "opened_at": "2026-01-01"
+  },
+  {
+    "_id": "ACC0338",
+    "customer_id": "CUST0338",
+    "type": "current",
+    "balance": 101162.51,
+    "opened_at": "2025-03-18"
+  },
+  {
+    "_id": "ACC0339",
+    "customer_id": "CUST0339",
+    "type": "savings",
+    "balance": 132219.13,
+    "opened_at": "2026-01-05"
+  },
+  {
+    "_id": "ACC0340",
+    "customer_id": "CUST0340",
+    "type": "savings",
+    "balance": 165676.83,
+    "opened_at": "2025-11-20"
+  },
+  {
+    "_id": "ACC0341",
+    "customer_id": "CUST0341",
+    "type": "salary",
+    "balance": 136033.31,
+    "opened_at": "2024-01-26"
+  },
+  {
+    "_id": "ACC0342",
+    "customer_id": "CUST0342",
+    "type": "savings",
+    "balance": 74705.11,
+    "opened_at": "2025-12-01"
+  },
+  {
+    "_id": "ACC0343",
+    "customer_id": "CUST0343",
+    "type": "savings",
+    "balance": 86362.3,
+    "opened_at": "2024-04-01"
+  },
+  {
+    "_id": "ACC0344",
+    "customer_id": "CUST0344",
+    "type": "current",
+    "balance": 158121.56,
+    "opened_at": "2025-12-31"
+  },
+  {
+    "_id": "ACC0345",
+    "customer_id": "CUST0345",
+    "type": "savings",
+    "balance": 161119.59,
+    "opened_at": "2024-07-07"
+  },
+  {
+    "_id": "ACC0346",
+    "customer_id": "CUST0346",
+    "type": "current",
+    "balance": 139644.81,
+    "opened_at": "2025-12-19"
+  },
+  {
+    "_id": "ACC0347",
+    "customer_id": "CUST0347",
+    "type": "savings",
+    "balance": 51649.09,
+    "opened_at": "2025-10-09"
+  },
+  {
+    "_id": "ACC0348",
+    "customer_id": "CUST0348",
+    "type": "savings",
+    "balance": 171951.6,
+    "opened_at": "2024-12-30"
+  },
+  {
+    "_id": "ACC0349",
+    "customer_id": "CUST0349",
+    "type": "savings",
+    "balance": 109202.47,
+    "opened_at": "2024-05-08"
+  },
+  {
+    "_id": "ACC0350",
+    "customer_id": "CUST0350",
+    "type": "savings",
+    "balance": 142120.62,
+    "opened_at": "2025-05-06"
+  },
+  {
+    "_id": "ACC0351",
+    "customer_id": "CUST0351",
+    "type": "savings",
+    "balance": 104985.59,
+    "opened_at": "2025-08-26"
+  },
+  {
+    "_id": "ACC0352",
+    "customer_id": "CUST0352",
+    "type": "savings",
+    "balance": 131254.68,
+    "opened_at": "2024-03-10"
+  },
+  {
+    "_id": "ACC0353",
+    "customer_id": "CUST0353",
+    "type": "current",
+    "balance": 82360.17,
+    "opened_at": "2024-11-28"
+  },
+  {
+    "_id": "ACC0354",
+    "customer_id": "CUST0354",
+    "type": "savings",
+    "balance": 130663.61,
+    "opened_at": "2024-08-24"
+  },
+  {
+    "_id": "ACC0355",
+    "customer_id": "CUST0355",
+    "type": "savings",
+    "balance": 107684.87,
+    "opened_at": "2024-04-16"
+  },
+  {
+    "_id": "ACC0356",
+    "customer_id": "CUST0356",
+    "type": "savings",
+    "balance": 55836.55,
+    "opened_at": "2025-02-02"
+  },
+  {
+    "_id": "ACC0357",
+    "customer_id": "CUST0357",
+    "type": "savings",
+    "balance": 41535.04,
+    "opened_at": "2024-01-24"
+  },
+  {
+    "_id": "ACC0358",
+    "customer_id": "CUST0358",
+    "type": "current",
+    "balance": 97011.08,
+    "opened_at": "2024-12-20"
+  },
+  {
+    "_id": "ACC0359",
+    "customer_id": "CUST0359",
+    "type": "savings",
+    "balance": 97268.27,
+    "opened_at": "2025-05-27"
+  },
+  {
+    "_id": "ACC0360",
+    "customer_id": "CUST0360",
+    "type": "savings",
+    "balance": 155064.7,
+    "opened_at": "2025-01-28"
+  },
+  {
+    "_id": "ACC0361",
+    "customer_id": "CUST0361",
+    "type": "current",
+    "balance": 171144.79,
+    "opened_at": "2025-09-19"
+  },
+  {
+    "_id": "ACC0362",
+    "customer_id": "CUST0362",
+    "type": "savings",
+    "balance": 46724.49,
+    "opened_at": "2025-03-03"
+  },
+  {
+    "_id": "ACC0363",
+    "customer_id": "CUST0363",
+    "type": "savings",
+    "balance": 33197.23,
+    "opened_at": "2025-08-27"
+  },
+  {
+    "_id": "ACC0364",
+    "customer_id": "CUST0364",
+    "type": "savings",
+    "balance": 157430.14,
+    "opened_at": "2024-08-25"
+  },
+  {
+    "_id": "ACC0365",
+    "customer_id": "CUST0365",
+    "type": "savings",
+    "balance": 139714.42,
+    "opened_at": "2026-01-13"
+  },
+  {
+    "_id": "ACC0366",
+    "customer_id": "CUST0366",
+    "type": "savings",
+    "balance": 78431.63,
+    "opened_at": "2025-06-29"
+  },
+  {
+    "_id": "ACC0367",
+    "customer_id": "CUST0367",
+    "type": "savings",
+    "balance": 19126.63,
+    "opened_at": "2025-07-21"
+  },
+  {
+    "_id": "ACC0368",
+    "customer_id": "CUST0368",
+    "type": "savings",
+    "balance": 120448.84,
+    "opened_at": "2024-07-23"
+  },
+  {
+    "_id": "ACC0369",
+    "customer_id": "CUST0369",
+    "type": "savings",
+    "balance": 45132.28,
+    "opened_at": "2024-03-19"
+  },
+  {
+    "_id": "ACC0370",
+    "customer_id": "CUST0370",
+    "type": "savings",
+    "balance": 145174.45,
+    "opened_at": "2024-03-13"
+  },
+  {
+    "_id": "ACC0371",
+    "customer_id": "CUST0371",
+    "type": "salary",
+    "balance": 123179.15,
+    "opened_at": "2025-02-11"
+  },
+  {
+    "_id": "ACC0372",
+    "customer_id": "CUST0372",
+    "type": "savings",
+    "balance": 192742.43,
+    "opened_at": "2024-06-02"
+  },
+  {
+    "_id": "ACC0373",
+    "customer_id": "CUST0373",
+    "type": "salary",
+    "balance": 164225.52,
+    "opened_at": "2024-04-19"
+  },
+  {
+    "_id": "ACC0374",
+    "customer_id": "CUST0374",
+    "type": "savings",
+    "balance": 3131.37,
+    "opened_at": "2025-08-06"
+  },
+  {
+    "_id": "ACC0375",
+    "customer_id": "CUST0375",
+    "type": "savings",
+    "balance": 160978.07,
+    "opened_at": "2025-08-11"
+  },
+  {
+    "_id": "ACC0376",
+    "customer_id": "CUST0376",
+    "type": "savings",
+    "balance": 157007.93,
+    "opened_at": "2024-10-30"
+  },
+  {
+    "_id": "ACC0377",
+    "customer_id": "CUST0377",
+    "type": "savings",
+    "balance": 47102.52,
+    "opened_at": "2024-09-15"
+  },
+  {
+    "_id": "ACC0378",
+    "customer_id": "CUST0378",
+    "type": "savings",
+    "balance": 72588.26,
+    "opened_at": "2024-07-16"
+  },
+  {
+    "_id": "ACC0379",
+    "customer_id": "CUST0379",
+    "type": "savings",
+    "balance": 32331.51,
+    "opened_at": "2025-08-12"
+  },
+  {
+    "_id": "ACC0380",
+    "customer_id": "CUST0380",
+    "type": "current",
+    "balance": 71272.41,
+    "opened_at": "2024-09-07"
+  },
+  {
+    "_id": "ACC0381",
+    "customer_id": "CUST0381",
+    "type": "savings",
+    "balance": 40861.77,
+    "opened_at": "2024-05-13"
+  },
+  {
+    "_id": "ACC0382",
+    "customer_id": "CUST0382",
+    "type": "current",
+    "balance": 14654.82,
+    "opened_at": "2024-04-25"
+  },
+  {
+    "_id": "ACC0383",
+    "customer_id": "CUST0383",
+    "type": "savings",
+    "balance": 145501.6,
+    "opened_at": "2024-11-22"
+  },
+  {
+    "_id": "ACC0384",
+    "customer_id": "CUST0384",
+    "type": "salary",
+    "balance": 70270.95,
+    "opened_at": "2026-01-24"
+  },
+  {
+    "_id": "ACC0385",
+    "customer_id": "CUST0385",
+    "type": "current",
+    "balance": 46032.81,
+    "opened_at": "2026-01-05"
+  },
+  {
+    "_id": "ACC0386",
+    "customer_id": "CUST0386",
+    "type": "savings",
+    "balance": 186013.05,
+    "opened_at": "2025-09-26"
+  },
+  {
+    "_id": "ACC0387",
+    "customer_id": "CUST0387",
+    "type": "savings",
+    "balance": 35831.92,
+    "opened_at": "2024-04-05"
+  },
+  {
+    "_id": "ACC0388",
+    "customer_id": "CUST0388",
+    "type": "savings",
+    "balance": 15404.81,
+    "opened_at": "2024-01-21"
+  },
+  {
+    "_id": "ACC0389",
+    "customer_id": "CUST0389",
+    "type": "savings",
+    "balance": 24284.79,
+    "opened_at": "2025-02-15"
+  },
+  {
+    "_id": "ACC0390",
+    "customer_id": "CUST0390",
+    "type": "salary",
+    "balance": 175346.5,
+    "opened_at": "2025-05-31"
+  },
+  {
+    "_id": "ACC0391",
+    "customer_id": "CUST0391",
+    "type": "current",
+    "balance": 50778.16,
+    "opened_at": "2024-12-06"
+  },
+  {
+    "_id": "ACC0392",
+    "customer_id": "CUST0392",
+    "type": "salary",
+    "balance": 113070.55,
+    "opened_at": "2024-04-29"
+  },
+  {
+    "_id": "ACC0393",
+    "customer_id": "CUST0393",
+    "type": "savings",
+    "balance": 68592.49,
+    "opened_at": "2024-03-19"
+  },
+  {
+    "_id": "ACC0394",
+    "customer_id": "CUST0394",
+    "type": "savings",
+    "balance": 92683.37,
+    "opened_at": "2024-11-02"
+  },
+  {
+    "_id": "ACC0395",
+    "customer_id": "CUST0395",
+    "type": "current",
+    "balance": 96912.06,
+    "opened_at": "2025-01-12"
+  },
+  {
+    "_id": "ACC0396",
+    "customer_id": "CUST0396",
+    "type": "savings",
+    "balance": 127098.7,
+    "opened_at": "2024-08-06"
+  },
+  {
+    "_id": "ACC0397",
+    "customer_id": "CUST0397",
+    "type": "savings",
+    "balance": 46756.1,
+    "opened_at": "2025-05-25"
+  },
+  {
+    "_id": "ACC0398",
+    "customer_id": "CUST0398",
+    "type": "savings",
+    "balance": 71266.16,
+    "opened_at": "2024-07-27"
+  },
+  {
+    "_id": "ACC0399",
+    "customer_id": "CUST0399",
+    "type": "savings",
+    "balance": 166603.23,
+    "opened_at": "2025-12-21"
+  },
+  {
+    "_id": "ACC0400",
+    "customer_id": "CUST0400",
+    "type": "savings",
+    "balance": 80387.2,
+    "opened_at": "2024-03-26"
+  },
+  {
+    "_id": "ACC0401",
+    "customer_id": "CUST0199",
+    "type": "current",
+    "balance": 16129.74,
+    "opened_at": "2024-04-14"
+  },
+  {
+    "_id": "ACC0402",
+    "customer_id": "CUST0268",
+    "type": "savings",
+    "balance": 63460.68,
+    "opened_at": "2025-06-15"
+  },
+  {
+    "_id": "ACC0403",
+    "customer_id": "CUST0215",
+    "type": "current",
+    "balance": 54546.08,
+    "opened_at": "2024-10-03"
+  },
+  {
+    "_id": "ACC0404",
+    "customer_id": "CUST0275",
+    "type": "current",
+    "balance": 186120.8,
+    "opened_at": "2024-01-24"
+  },
+  {
+    "_id": "ACC0405",
+    "customer_id": "CUST0352",
+    "type": "savings",
+    "balance": 40733.64,
+    "opened_at": "2024-03-11"
+  },
+  {
+    "_id": "ACC0406",
+    "customer_id": "CUST0244",
+    "type": "savings",
+    "balance": 53815.67,
+    "opened_at": "2024-05-07"
+  },
+  {
+    "_id": "ACC0407",
+    "customer_id": "CUST0294",
+    "type": "savings",
+    "balance": 50689.39,
+    "opened_at": "2024-12-22"
+  },
+  {
+    "_id": "ACC0408",
+    "customer_id": "CUST0121",
+    "type": "savings",
+    "balance": 156008.76,
+    "opened_at": "2025-03-30"
+  },
+  {
+    "_id": "ACC0409",
+    "customer_id": "CUST0395",
+    "type": "salary",
+    "balance": 135486.61,
+    "opened_at": "2025-01-25"
+  },
+  {
+    "_id": "ACC0410",
+    "customer_id": "CUST0154",
+    "type": "savings",
+    "balance": 2318.11,
+    "opened_at": "2025-03-09"
+  },
+  {
+    "_id": "ACC0411",
+    "customer_id": "CUST0041",
+    "type": "savings",
+    "balance": 9410.36,
+    "opened_at": "2025-08-11"
+  },
+  {
+    "_id": "ACC0412",
+    "customer_id": "CUST0203",
+    "type": "savings",
+    "balance": 63767.96,
+    "opened_at": "2025-03-24"
+  },
+  {
+    "_id": "ACC0413",
+    "customer_id": "CUST0366",
+    "type": "salary",
+    "balance": 179502.95,
+    "opened_at": "2025-07-06"
+  },
+  {
+    "_id": "ACC0414",
+    "customer_id": "CUST0018",
+    "type": "savings",
+    "balance": 37391.5,
+    "opened_at": "2025-07-23"
+  },
+  {
+    "_id": "ACC0415",
+    "customer_id": "CUST0258",
+    "type": "salary",
+    "balance": 56773.06,
+    "opened_at": "2024-10-30"
+  },
+  {
+    "_id": "ACC0416",
+    "customer_id": "CUST0293",
+    "type": "current",
+    "balance": 26520.94,
+    "opened_at": "2025-10-09"
+  },
+  {
+    "_id": "ACC0417",
+    "customer_id": "CUST0265",
+    "type": "current",
+    "balance": 96185.7,
+    "opened_at": "2025-09-10"
+  },
+  {
+    "_id": "ACC0418",
+    "customer_id": "CUST0385",
+    "type": "savings",
+    "balance": 70110.5,
+    "opened_at": "2026-01-02"
+  },
+  {
+    "_id": "ACC0419",
+    "customer_id": "CUST0347",
+    "type": "savings",
+    "balance": 35785.27,
+    "opened_at": "2025-09-18"
+  },
+  {
+    "_id": "ACC0420",
+    "customer_id": "CUST0318",
+    "type": "savings",
+    "balance": 92554.05,
+    "opened_at": "2025-06-29"
+  },
+  {
+    "_id": "ACC0421",
+    "customer_id": "CUST0076",
+    "type": "savings",
+    "balance": 135146.51,
+    "opened_at": "2024-02-11"
+  },
+  {
+    "_id": "ACC0422",
+    "customer_id": "CUST0062",
+    "type": "savings",
+    "balance": 65761.8,
+    "opened_at": "2025-03-25"
+  },
+  {
+    "_id": "ACC0423",
+    "customer_id": "CUST0230",
+    "type": "current",
+    "balance": 38243.34,
+    "opened_at": "2024-05-12"
+  },
+  {
+    "_id": "ACC0424",
+    "customer_id": "CUST0089",
+    "type": "savings",
+    "balance": 94797.73,
+    "opened_at": "2024-01-22"
+  },
+  {
+    "_id": "ACC0425",
+    "customer_id": "CUST0086",
+    "type": "savings",
+    "balance": 37598.82,
+    "opened_at": "2024-09-24"
+  },
+  {
+    "_id": "ACC0426",
+    "customer_id": "CUST0109",
+    "type": "savings",
+    "balance": 140441.81,
+    "opened_at": "2024-06-07"
+  },
+  {
+    "_id": "ACC0427",
+    "customer_id": "CUST0099",
+    "type": "savings",
+    "balance": 80717.93,
+    "opened_at": "2025-06-08"
+  },
+  {
+    "_id": "ACC0428",
+    "customer_id": "CUST0065",
+    "type": "savings",
+    "balance": 27096.69,
+    "opened_at": "2025-02-25"
+  },
+  {
+    "_id": "ACC0429",
+    "customer_id": "CUST0022",
+    "type": "savings",
+    "balance": 163023.94,
+    "opened_at": "2024-09-23"
+  },
+  {
+    "_id": "ACC0430",
+    "customer_id": "CUST0217",
+    "type": "savings",
+    "balance": 47925.23,
+    "opened_at": "2024-02-29"
+  },
+  {
+    "_id": "ACC0431",
+    "customer_id": "CUST0390",
+    "type": "current",
+    "balance": 40016.58,
+    "opened_at": "2025-05-30"
+  },
+  {
+    "_id": "ACC0432",
+    "customer_id": "CUST0350",
+    "type": "salary",
+    "balance": 30760.06,
+    "opened_at": "2025-05-06"
+  },
+  {
+    "_id": "ACC0433",
+    "customer_id": "CUST0223",
+    "type": "savings",
+    "balance": 84882.61,
+    "opened_at": "2025-12-09"
+  },
+  {
+    "_id": "ACC0434",
+    "customer_id": "CUST0104",
+    "type": "salary",
+    "balance": 170028.59,
+    "opened_at": "2025-06-19"
+  },
+  {
+    "_id": "ACC0435",
+    "customer_id": "CUST0322",
+    "type": "savings",
+    "balance": 63829.72,
+    "opened_at": "2024-03-16"
+  },
+  {
+    "_id": "ACC0436",
+    "customer_id": "CUST0380",
+    "type": "savings",
+    "balance": 112865.55,
+    "opened_at": "2024-09-13"
+  },
+  {
+    "_id": "ACC0437",
+    "customer_id": "CUST0305",
+    "type": "savings",
+    "balance": 20695.99,
+    "opened_at": "2025-12-19"
+  },
+  {
+    "_id": "ACC0438",
+    "customer_id": "CUST0133",
+    "type": "savings",
+    "balance": 162949.8,
+    "opened_at": "2024-08-24"
+  },
+  {
+    "_id": "ACC0439",
+    "customer_id": "CUST0164",
+    "type": "current",
+    "balance": 20164.08,
+    "opened_at": "2025-01-09"
+  },
+  {
+    "_id": "ACC0440",
+    "customer_id": "CUST0035",
+    "type": "savings",
+    "balance": 72831.44,
+    "opened_at": "2025-11-17"
+  },
+  {
+    "_id": "ACC0441",
+    "customer_id": "CUST0045",
+    "type": "savings",
+    "balance": 162193.16,
+    "opened_at": "2025-11-17"
+  },
+  {
+    "_id": "ACC0442",
+    "customer_id": "CUST0400",
+    "type": "savings",
+    "balance": 25126.26,
+    "opened_at": "2024-03-30"
+  },
+  {
+    "_id": "ACC0443",
+    "customer_id": "CUST0285",
+    "type": "savings",
+    "balance": 121509.63,
+    "opened_at": "2025-10-29"
+  },
+  {
+    "_id": "ACC0444",
+    "customer_id": "CUST0204",
+    "type": "savings",
+    "balance": 130177.06,
+    "opened_at": "2025-07-23"
+  },
+  {
+    "_id": "ACC0445",
+    "customer_id": "CUST0283",
+    "type": "salary",
+    "balance": 57637.14,
+    "opened_at": "2025-07-17"
+  },
+  {
+    "_id": "ACC0446",
+    "customer_id": "CUST0167",
+    "type": "savings",
+    "balance": 98011.26,
+    "opened_at": "2025-11-26"
+  },
+  {
+    "_id": "ACC0447",
+    "customer_id": "CUST0142",
+    "type": "savings",
+    "balance": 16603.1,
+    "opened_at": "2025-05-19"
+  },
+  {
+    "_id": "ACC0448",
+    "customer_id": "CUST0267",
+    "type": "savings",
+    "balance": 126710.73,
+    "opened_at": "2024-09-06"
+  },
+  {
+    "_id": "ACC0449",
+    "customer_id": "CUST0235",
+    "type": "current",
+    "balance": 128475.55,
+    "opened_at": "2025-11-26"
+  },
+  {
+    "_id": "ACC0450",
+    "customer_id": "CUST0007",
+    "type": "savings",
+    "balance": 126623.41,
+    "opened_at": "2025-04-27"
+  },
+  {
+    "_id": "ACC0451",
+    "customer_id": "CUST0320",
+    "type": "savings",
+    "balance": 181507.54,
+    "opened_at": "2024-02-05"
+  },
+  {
+    "_id": "ACC0452",
+    "customer_id": "CUST0301",
+    "type": "savings",
+    "balance": 46415.37,
+    "opened_at": "2024-09-21"
+  },
+  {
+    "_id": "ACC0453",
+    "customer_id": "CUST0399",
+    "type": "savings",
+    "balance": 142376.26,
+    "opened_at": "2026-01-02"
+  },
+  {
+    "_id": "ACC0454",
+    "customer_id": "CUST0398",
+    "type": "savings",
+    "balance": 54978.37,
+    "opened_at": "2024-07-24"
+  },
+  {
+    "_id": "ACC0455",
+    "customer_id": "CUST0058",
+    "type": "current",
+    "balance": 187815.2,
+    "opened_at": "2025-04-21"
+  },
+  {
+    "_id": "ACC0456",
+    "customer_id": "CUST0213",
+    "type": "savings",
+    "balance": 193139.68,
+    "opened_at": "2025-10-05"
+  },
+  {
+    "_id": "ACC0457",
+    "customer_id": "CUST0077",
+    "type": "savings",
+    "balance": 170988.16,
+    "opened_at": "2025-09-06"
+  },
+  {
+    "_id": "ACC0458",
+    "customer_id": "CUST0365",
+    "type": "current",
+    "balance": 132742.49,
+    "opened_at": "2026-01-21"
+  },
+  {
+    "_id": "ACC0459",
+    "customer_id": "CUST0291",
+    "type": "current",
+    "balance": 150198.21,
+    "opened_at": "2025-01-30"
+  },
+  {
+    "_id": "ACC0460",
+    "customer_id": "CUST0302",
+    "type": "savings",
+    "balance": 21498.85,
+    "opened_at": "2024-12-07"
+  },
+  {
+    "_id": "ACC0461",
+    "customer_id": "CUST0299",
+    "type": "salary",
+    "balance": 95163.97,
+    "opened_at": "2025-01-22"
+  },
+  {
+    "_id": "ACC0462",
+    "customer_id": "CUST0052",
+    "type": "savings",
+    "balance": 80005.49,
+    "opened_at": "2024-11-13"
+  },
+  {
+    "_id": "ACC0463",
+    "customer_id": "CUST0055",
+    "type": "salary",
+    "balance": 21681.75,
+    "opened_at": "2025-03-19"
+  },
+  {
+    "_id": "ACC0464",
+    "customer_id": "CUST0289",
+    "type": "savings",
+    "balance": 131311.7,
+    "opened_at": "2024-02-24"
+  },
+  {
+    "_id": "ACC0465",
+    "customer_id": "CUST0339",
+    "type": "savings",
+    "balance": 46641.84,
+    "opened_at": "2025-12-31"
+  },
+  {
+    "_id": "ACC0466",
+    "customer_id": "CUST0147",
+    "type": "savings",
+    "balance": 125669.66,
+    "opened_at": "2024-01-11"
+  },
+  {
+    "_id": "ACC0467",
+    "customer_id": "CUST0397",
+    "type": "savings",
+    "balance": 34950.99,
+    "opened_at": "2025-05-16"
+  },
+  {
+    "_id": "ACC0468",
+    "customer_id": "CUST0177",
+    "type": "savings",
+    "balance": 172213.39,
+    "opened_at": "2025-04-02"
+  },
+  {
+    "_id": "ACC0469",
+    "customer_id": "CUST0211",
+    "type": "current",
+    "balance": 93971.5,
+    "opened_at": "2024-12-19"
+  },
+  {
+    "_id": "ACC0470",
+    "customer_id": "CUST0136",
+    "type": "savings",
+    "balance": 55210.47,
+    "opened_at": "2024-03-20"
+  },
+  {
+    "_id": "ACC0471",
+    "customer_id": "CUST0197",
+    "type": "savings",
+    "balance": 189748.74,
+    "opened_at": "2025-11-13"
+  },
+  {
+    "_id": "ACC0472",
+    "customer_id": "CUST0249",
+    "type": "savings",
+    "balance": 119919.26,
+    "opened_at": "2025-05-08"
+  },
+  {
+    "_id": "ACC0473",
+    "customer_id": "CUST0383",
+    "type": "current",
+    "balance": 175581.45,
+    "opened_at": "2024-11-18"
+  },
+  {
+    "_id": "ACC0474",
+    "customer_id": "CUST0312",
+    "type": "savings",
+    "balance": 128266.12,
+    "opened_at": "2025-09-30"
+  },
+  {
+    "_id": "ACC0475",
+    "customer_id": "CUST0243",
+    "type": "salary",
+    "balance": 96848.68,
+    "opened_at": "2025-01-10"
+  },
+  {
+    "_id": "ACC0476",
+    "customer_id": "CUST0020",
+    "type": "current",
+    "balance": 88930.2,
+    "opened_at": "2025-06-24"
+  },
+  {
+    "_id": "ACC0477",
+    "customer_id": "CUST0377",
+    "type": "savings",
+    "balance": 31987.79,
+    "opened_at": "2024-09-10"
+  },
+  {
+    "_id": "ACC0478",
+    "customer_id": "CUST0354",
+    "type": "savings",
+    "balance": 163260.58,
+    "opened_at": "2024-09-12"
+  },
+  {
+    "_id": "ACC0479",
+    "customer_id": "CUST0207",
+    "type": "savings",
+    "balance": 58065.69,
+    "opened_at": "2025-09-03"
+  },
+  {
+    "_id": "ACC0480",
+    "customer_id": "CUST0074",
+    "type": "savings",
+    "balance": 184495.59,
+    "opened_at": "2024-07-05"
+  },
+  {
+    "_id": "ACC0481",
+    "customer_id": "CUST0317",
+    "type": "current",
+    "balance": 60622.49,
+    "opened_at": "2024-02-27"
+  },
+  {
+    "_id": "ACC0482",
+    "customer_id": "CUST0327",
+    "type": "savings",
+    "balance": 59291.6,
+    "opened_at": "2024-03-12"
+  },
+  {
+    "_id": "ACC0483",
+    "customer_id": "CUST0206",
+    "type": "current",
+    "balance": 110094.23,
+    "opened_at": "2024-03-27"
+  },
+  {
+    "_id": "ACC0484",
+    "customer_id": "CUST0325",
+    "type": "savings",
+    "balance": 112550.32,
+    "opened_at": "2025-03-12"
+  },
+  {
+    "_id": "ACC0485",
+    "customer_id": "CUST0389",
+    "type": "savings",
+    "balance": 143272.66,
+    "opened_at": "2025-02-19"
+  },
+  {
+    "_id": "ACC0486",
+    "customer_id": "CUST0170",
+    "type": "savings",
+    "balance": 76293.25,
+    "opened_at": "2024-07-11"
+  },
+  {
+    "_id": "ACC0487",
+    "customer_id": "CUST0122",
+    "type": "savings",
+    "balance": 125439.28,
+    "opened_at": "2024-08-09"
+  },
+  {
+    "_id": "ACC0488",
+    "customer_id": "CUST0026",
+    "type": "current",
+    "balance": 182080.93,
+    "opened_at": "2025-08-11"
+  },
+  {
+    "_id": "ACC0489",
+    "customer_id": "CUST0392",
+    "type": "savings",
+    "balance": 55101.16,
+    "opened_at": "2024-04-25"
+  },
+  {
+    "_id": "ACC0490",
+    "customer_id": "CUST0138",
+    "type": "current",
+    "balance": 161952.92,
+    "opened_at": "2025-12-16"
+  },
+  {
+    "_id": "ACC0491",
+    "customer_id": "CUST0191",
+    "type": "savings",
+    "balance": 14624.33,
+    "opened_at": "2024-03-29"
+  },
+  {
+    "_id": "ACC0492",
+    "customer_id": "CUST0011",
+    "type": "savings",
+    "balance": 127741.65,
+    "opened_at": "2024-10-17"
+  },
+  {
+    "_id": "ACC0493",
+    "customer_id": "CUST0173",
+    "type": "savings",
+    "balance": 140394.05,
+    "opened_at": "2025-04-14"
+  },
+  {
+    "_id": "ACC0494",
+    "customer_id": "CUST0156",
+    "type": "savings",
+    "balance": 4859.68,
+    "opened_at": "2025-12-08"
+  },
+  {
+    "_id": "ACC0495",
+    "customer_id": "CUST0160",
+    "type": "salary",
+    "balance": 5404.05,
+    "opened_at": "2025-10-07"
+  },
+  {
+    "_id": "ACC0496",
+    "customer_id": "CUST0144",
+    "type": "savings",
+    "balance": 25882.8,
+    "opened_at": "2024-03-07"
+  },
+  {
+    "_id": "ACC0497",
+    "customer_id": "CUST0252",
+    "type": "current",
+    "balance": 47329.29,
+    "opened_at": "2025-01-30"
+  },
+  {
+    "_id": "ACC0498",
+    "customer_id": "CUST0051",
+    "type": "savings",
+    "balance": 44220.43,
+    "opened_at": "2025-02-05"
+  },
+  {
+    "_id": "ACC0499",
+    "customer_id": "CUST0117",
+    "type": "savings",
+    "balance": 160093.01,
+    "opened_at": "2025-05-20"
+  },
+  {
+    "_id": "ACC0500",
+    "customer_id": "CUST0069",
+    "type": "savings",
+    "balance": 158493.52,
+    "opened_at": "2024-05-19"
+  }
+]
