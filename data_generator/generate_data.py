@@ -1,7 +1,7 @@
 import json
 import os
 import random
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta
 
 random.seed(42)  # same seed = same data on every machine
 
@@ -14,6 +14,12 @@ FIRST_NAMES = ["Asha", "Ravi", "Meera", "Karthik", "Divya", "Arjun", "Sneha", "V
 LAST_NAMES = ["Rao", "Shetty", "Nair", "Hegde", "Kamath", "Bhat", "Pai", "Gowda",
               "Reddy", "Iyer", "Kulkarni", "Naik"]
 CITIES = ["Mangaluru", "Udupi", "Bengaluru", "Mysuru", "Hubballi", "Belagavi"]
+
+CHANNELS = ["UPI", "NEFT", "IMPS", "RTGS"]
+CHANNEL_WEIGHTS = [60, 20, 15, 5]
+NUM_NORMAL_TXNS = 2800
+TXN_START = datetime(2026, 2, 1)
+TXN_END = datetime(2026, 10, 31, 23, 59, 59)
 
 
 def random_date(start, end):
@@ -75,6 +81,31 @@ def make_accounts(customers):
         })
     return accounts
 
+def random_timestamp(start, end):
+    seconds = int((end - start).total_seconds())
+    return start + timedelta(seconds=random.randint(0, seconds))
+
+
+def make_normal_transactions(accounts):
+    acc_ids = [a["_id"] for a in accounts]
+    txns = []
+    for _ in range(NUM_NORMAL_TXNS):
+        sender, receiver = random.sample(acc_ids, 2)
+        amount = random.lognormvariate(8, 1.0)
+        amount = round(min(max(amount, 100), 100000), 2)
+        txns.append({
+            "from_acc": sender,
+            "to_acc": receiver,
+            "amount": amount,
+            "ts": random_timestamp(TXN_START, TXN_END).isoformat(timespec="seconds"),
+            "channel": random.choices(CHANNELS, weights=CHANNEL_WEIGHTS)[0],
+        })
+    return txns
+
+
+def finalize_transactions(txns):
+    txns.sort(key=lambda t: t["ts"])
+    return [{"_id": f"TXN{n:06d}", **t} for n, t in enumerate(txns, start=1)]
 
 def save_json(filename, records):
     os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -87,5 +118,7 @@ def save_json(filename, records):
 if __name__ == "__main__":
     customers = make_customers()
     accounts = make_accounts(customers)
+    transactions = finalize_transactions(make_normal_transactions(accounts))
     save_json("customers.json", customers)
     save_json("accounts.json", accounts)
+    save_json("transactions.json", transactions)
