@@ -114,11 +114,123 @@ def save_json(filename, records):
         json.dump(records, f, indent=2)
     print(f"Wrote {len(records)} records to {path}")
 
+def txn(sender, receiver, amount, ts, channel=None):
+    return {
+        "from_acc": sender,
+        "to_acc": receiver,
+        "amount": round(amount, 2),
+        "ts": ts.isoformat(timespec="seconds"),
+        "channel": channel or random.choices(CHANNELS, weights=CHANNEL_WEIGHTS)[0],
+    }
+
+
+def first_account_of(customer_id, accounts):
+    return next(a["_id"] for a in accounts if a["customer_id"] == customer_id)
+
+
+def free_accounts(accounts, used_accounts):
+    return [a["_id"] for a in accounts if a["_id"] not in used_accounts]
+
+
+def plant_shared_rings(customers, accounts, used_customers, used_accounts, txns):
+    rings = []
+    for kind, size in [("device", 4), ("ip_and_phone", 3)]:
+        pool = [c for c in customers if c["_id"] not in used_customers]
+        members = random.sample(pool, size)
+        lead = members[0]
+        if kind == "device":
+            shared = {"device": lead["devices"][0]}
+            for m in members[1:]:
+                m["devices"].append(shared["device"])
+        else:
+            shared = {"ip": lead["ips"][0], "phone": lead["phones"][0]}
+            for m in members[1:]:
+                m["ips"].append(shared["ip"])
+                m["phones"].append(shared["phone"])
+        used_customers.update(m["_id"] for m in members)
+        ring_accounts = [first_account_of(m["_id"], accounts) for m in members]
+        used_accounts.update(ring_accounts)
+        for acc in ring_accounts[1:]:
+            ts = random_timestamp(TXN_START, TXN_END)
+            txns.append(txn(acc, ring_accounts[0], random.uniform(3000, 15000), ts))
+        rings.append({
+            "shared": shared,
+            "customers": [m["_id"] for m in members],
+            "accounts": ring_accounts,
+        })
+    return rings
+
+
+def plant_cycles(accounts, used_accounts, txns):
+    cycles = []
+    for length in (3, 4):
+        members = random.sample(free_accounts(accounts, used_accounts), length)
+        used_accounts.update(members)
+        amount = random.uniform(40000, 90000)
+        ts = random_timestamp(TXN_START, TXN_END - timedelta(days=3))
+        for i in range(length):
+            txns.append(txn(members[i], members[(i + 1) % length], amount, ts))
+            amount *= 0.98
+            ts += timedelta(hours=random.randint(1, 8))
+        cycles.append({"length": length, "accounts": members})
+    return cycles
+
+
+def plant_fan_in(accounts, used_accounts, txns):
+    result = []
+    for _ in range(2):
+        target = random.choice(free_accounts(accounts, used_accounts))
+        used_accounts.add(target)
+        senders = random.sample(free_accounts(accounts, used_accounts),
+                                random.randint(15, 20))
+        start = random_timestamp(TXN_START, TXN_END - timedelta(days=4))
+        for s in senders:
+            ts = start + timedelta(seconds=random.randint(0, 72 * 3600))
+            txns.append(txn(s, target, random.uniform(2000, 9000), ts))
+        result.append({"target": target, "senders": senders})
+    return result
+
+
+def plant_rapid_chain(accounts, used_accounts, txns):
+    members = random.sample(free_accounts(accounts, used_accounts), 4)
+    used_accounts.update(members)
+    amount = random.uniform(60000, 95000)
+    ts = random_timestamp(TXN_START, TXN_END - timedelta(days=2))
+    for i in range(3):
+        txns.append(txn(members[i], members[i + 1], amount, ts))
+        amount *= 0.97
+        ts += timedelta(hours=random.randint(1, 6))
+    return [{"accounts": members}]
+
+
+def plant_fraud(customers, accounts, txns):
+    used_customers, used_accounts = set(), set()
+    ground_truth = {
+        "shared_identifier_rings": plant_shared_rings(
+            customers, accounts, used_customers, used_accounts, txns),
+        "circular_flows": plant_cycles(accounts, used_accounts, txns),
+        "fan_in": plant_fan_in(accounts, used_accounts, txns),
+        "rapid_chains": plant_rapid_chain(accounts, used_accounts, txns),
+    }
+    ground_truth["suspicious_accounts"] = sorted(used_accounts)
+    return ground_truth
+
+
+def save_ground_truth(ground_truth):
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    path = os.path.join(OUTPUT_DIR, "ground_truth.json")
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(ground_truth, f, indent=2)
+    print(f"Wrote ground truth ({len(ground_truth['suspicious_accounts'])} "
+          f"suspicious accounts) to {path}")
 
 if __name__ == "__main__":
     customers = make_customers()
     accounts = make_accounts(customers)
-    transactions = finalize_transactions(make_normal_transactions(accounts))
+    transactions = make_normal_transactions(accounts)
+    ground_truth = plant_fraud(customers, accounts, transactions)
+    transactions = finalize_transactions(transactions)
     save_json("customers.json", customers)
     save_json("accounts.json", accounts)
     save_json("transactions.json", transactions)
+    save_ground_truth(ground_truth)

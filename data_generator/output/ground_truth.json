@@ -1,0 +1,132 @@
+{
+  "shared_identifier_rings": [
+    {
+      "shared": {
+        "device": "DEV372"
+      },
+      "customers": [
+        "CUST0286",
+        "CUST0271",
+        "CUST0347",
+        "CUST0228"
+      ],
+      "accounts": [
+        "ACC0286",
+        "ACC0271",
+        "ACC0347",
+        "ACC0228"
+      ]
+    },
+    {
+      "shared": {
+        "ip": "103.157.37.117",
+        "phone": "8040695043"
+      },
+      "customers": [
+        "CUST0055",
+        "CUST0219",
+        "CUST0015"
+      ],
+      "accounts": [
+        "ACC0055",
+        "ACC0219",
+        "ACC0015"
+      ]
+    }
+  ],
+  "circular_flows": [
+    {
+      "length": 3,
+      "accounts": [
+        "ACC0069",
+        "ACC0465",
+        "ACC0106"
+      ]
+    },
+    {
+      "length": 4,
+      "accounts": [
+        "ACC0255",
+        "ACC0178",
+        "ACC0438",
+        "ACC0121"
+      ]
+    }
+  ],
+  "fan_in": [
+    {
+      "target": "ACC0414",
+      "senders": [
+        "ACC0247",
+        "ACC0458",
+        "ACC0266",
+        "ACC0018",
+        "ACC0008",
+        "ACC0090",
+        "ACC0345",
+        "ACC0137",
+        "ACC0355",
+        "ACC0459",
+        "ACC0156",
+        "ACC0103",
+        "ACC0422",
+        "ACC0406",
+        "ACC0073",
+        "ACC0114",
+        "ACC0463"
+      ]
+    },
+    {
+      "target": "ACC0368",
+      "senders": [
+        "ACC0329",
+        "ACC0287",
+        "ACC0459",
+        "ACC0118",
+        "ACC0307",
+        "ACC0074",
+        "ACC0153",
+        "ACC0289",
+        "ACC0453",
+        "ACC0155",
+        "ACC0267",
+        "ACC0035",
+        "ACC0117",
+        "ACC0013",
+        "ACC0006"
+      ]
+    }
+  ],
+  "rapid_chains": [
+    {
+      "accounts": [
+        "ACC0179",
+        "ACC0170",
+        "ACC0395",
+        "ACC0405"
+      ]
+    }
+  ],
+  "suspicious_accounts": [
+    "ACC0015",
+    "ACC0055",
+    "ACC0069",
+    "ACC0106",
+    "ACC0121",
+    "ACC0170",
+    "ACC0178",
+    "ACC0179",
+    "ACC0219",
+    "ACC0228",
+    "ACC0255",
+    "ACC0271",
+    "ACC0286",
+    "ACC0347",
+    "ACC0368",
+    "ACC0395",
+    "ACC0405",
+    "ACC0414",
+    "ACC0438",
+    "ACC0465"
+  ]
+}
