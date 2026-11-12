@@ -202,6 +202,22 @@ def plant_rapid_chain(accounts, used_accounts, txns):
         ts += timedelta(hours=random.randint(1, 6))
     return [{"accounts": members}]
 
+def plant_decoys(customers, accounts, used_accounts, used_customers):
+    suspicious_owners = {a["customer_id"] for a in accounts
+                         if a["_id"] in used_accounts}
+    pool = [c for c in customers
+            if c["_id"] not in used_customers and c["_id"] not in suspicious_owners]
+    households = []
+    for share_device in (False, True):
+        a, b = random.sample(pool, 2)
+        pool = [c for c in pool if c["_id"] not in (a["_id"], b["_id"])]
+        b["ips"].append(a["ips"][0])
+        shared = {"ip": a["ips"][0]}
+        if share_device:
+            b["devices"].append(a["devices"][0])
+            shared["device"] = a["devices"][0]
+        households.append({"shared": shared, "customers": [a["_id"], b["_id"]]})
+    return households
 
 def plant_fraud(customers, accounts, txns):
     used_customers, used_accounts = set(), set()
@@ -212,6 +228,8 @@ def plant_fraud(customers, accounts, txns):
         "fan_in": plant_fan_in(accounts, used_accounts, txns),
         "rapid_chains": plant_rapid_chain(accounts, used_accounts, txns),
     }
+    ground_truth["decoy_households"] = plant_decoys(
+        customers, accounts, used_accounts, used_customers)
     ground_truth["suspicious_accounts"] = sorted(used_accounts)
     return ground_truth
 

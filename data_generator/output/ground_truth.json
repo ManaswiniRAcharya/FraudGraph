@@ -107,6 +107,27 @@
       ]
     }
   ],
+  "decoy_households": [
+    {
+      "shared": {
+        "ip": "103.170.189.18"
+      },
+      "customers": [
+        "CUST0073",
+        "CUST0126"
+      ]
+    },
+    {
+      "shared": {
+        "ip": "103.199.121.54",
+        "device": "DEV418"
+      },
+      "customers": [
+        "CUST0321",
+        "CUST0203"
+      ]
+    }
+  ],
   "suspicious_accounts": [
     "ACC0015",
     "ACC0055",
