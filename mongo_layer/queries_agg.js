@@ -34,7 +34,8 @@ print("--- 5. Identifiers used by more than one customer");
   printjson(db.customers.aggregate([
     {$unwind: "$" + field},
     {$group: {_id: "$" + field, customers: {$push: "$_id"}, n: {$sum: 1}}},
-    {$match: {n: {$gt: 1}}}
+    {$match: {n: {$gt: 1}}}, {$sort: {_id: 1}}
   ]).toArray());
 });
+
 
