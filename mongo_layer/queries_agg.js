@@ -2,7 +2,7 @@ print("--- 1. Top 5 senders by total amount sent");
 printjson(db.transactions.aggregate([
   {$group: {_id: "$from_acc", total_sent: {$sum: "$amount"}, txn_count: {$sum: 1}}},
   {$project: {total_sent: {$round: ["$total_sent", 2]}, txn_count: 1}},
-  {$sort: {total_sent: -1}},
+  {$sort: {total_sent: -1, _id: 1}},
   {$limit: 5}
 ]).toArray());
 
@@ -24,7 +24,7 @@ print("--- 4. Top 5 accounts by number of DISTINCT senders");
 printjson(db.transactions.aggregate([
   {$group: {_id: "$to_acc", senders: {$addToSet: "$from_acc"}}},
   {$project: {distinct_senders: {$size: "$senders"}}},
-  {$sort: {distinct_senders: -1}},
+  {$sort: {distinct_senders: -1, _id: 1}},
   {$limit: 5}
 ]).toArray());
 
@@ -37,3 +37,4 @@ print("--- 5. Identifiers used by more than one customer");
     {$match: {n: {$gt: 1}}}
   ]).toArray());
 });
+
