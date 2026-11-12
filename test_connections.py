@@ -3,7 +3,7 @@ from neo4j import GraphDatabase
 from cassandra.cluster import Cluster
 
 # --- MongoDB ---
-mongo = MongoClient("mongodb://localhost:27017", serverSelectionTimeoutMS=5000)
+mongo = MongoClient("mongodb://localhost:27018", serverSelectionTimeoutMS=5000)
 print("MongoDB  :", mongo.admin.command("ping"))
 mongo.close()
 
