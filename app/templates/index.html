@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+{% block content %}
+<h1>FraudGraph</h1>
+<p>Fraud-ring and AML detection using MongoDB, Neo4j and Cassandra.</p>
+<div class="cards">
+  <div class="card"><div class="num">{{ stats.customers }}</div>Customers</div>
+  <div class="card"><div class="num">{{ stats.accounts }}</div>Accounts</div>
+  <div class="card"><div class="num">{{ stats.transactions }}</div>Transactions</div>
+</div>
+{% endblock %}

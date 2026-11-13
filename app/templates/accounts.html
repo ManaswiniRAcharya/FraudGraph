@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block title %}Accounts{% endblock %}
+{% block content %}
+<h1>Accounts</h1>
+<form class="filters" method="get" action="{{ url_for('accounts') }}">
+  <select name="type">
+    <option value="">All types</option>
+    {% for t in account_types %}<option value="{{ t }}" {% if t == acc_type %}selected{% endif %}>{{ t }}</option>{% endfor %}
+  </select>
+  <button type="submit">Filter</button>
+</form>
+<table>
+  <tr><th>Account</th><th>Owner</th><th>Type</th><th>Balance</th><th>Sent</th><th>Received</th><th>Opened</th></tr>
+  {% for r in rows %}
+  <tr>
+    <td><a href="{{ url_for('account_detail', acc_id=r._id) }}">{{ r._id }}</a></td>
+    <td><a href="{{ url_for('customer_detail', cust_id=r.customer_id) }}">{{ r.customer_id }}</a></td>
+    <td>{{ r.type }}</td>
+    <td>{{ "{:,.2f}".format(r.balance) }}</td>
+    <td>{{ sent.get(r._id, 0) }}</td>
+    <td>{{ received.get(r._id, 0) }}</td>
+    <td>{{ r.opened_at.strftime('%Y-%m-%d') }}</td>
+  </tr>
+  {% else %}
+  <tr><td colspan="7">No accounts match this filter.</td></tr>
+  {% endfor %}
+</table>
+<div class="pager">
+  {% if page > 1 %}<a href="{{ url_for('accounts', page=page-1, type=acc_type) }}">&laquo; Previous</a>{% endif %}
+  <span>Page {{ page }} of {{ pages }} ({{ total }} accounts)</span>
+  {% if page < pages %}<a href="{{ url_for('accounts', page=page+1, type=acc_type) }}">Next &raquo;</a>{% endif %}
+</div>
+{% endblock %}

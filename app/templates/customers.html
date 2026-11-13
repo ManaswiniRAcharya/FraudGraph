@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block title %}Customers{% endblock %}
+{% block content %}
+<h1>Customers</h1>
+<form class="filters" method="get" action="{{ url_for('customers') }}">
+  <select name="city">
+    <option value="">All cities</option>
+    {% for c in cities %}<option value="{{ c }}" {% if c == city %}selected{% endif %}>{{ c }}</option>{% endfor %}
+  </select>
+  <select name="kyc">
+    <option value="">Any KYC status</option>
+    {% for k in kyc_states %}<option value="{{ k }}" {% if k == kyc %}selected{% endif %}>{{ k }}</option>{% endfor %}
+  </select>
+  <button type="submit">Filter</button>
+</form>
+<table>
+  <tr><th>ID</th><th>Name</th><th>City</th><th>KYC status</th><th>Devices</th><th>KYC document</th></tr>
+  {% for r in rows %}
+  <tr>
+    <td><a href="{{ url_for('customer_detail', cust_id=r._id) }}">{{ r._id }}</a></td>
+    <td>{{ r.name }}</td>
+    <td>{{ r.city }}</td>
+    <td>{{ r.kyc_status }}</td>
+    <td>{{ r.devices | length }}</td>
+    <td>{% if r._id in has_kyc %}on file{% else %}<span class="muted">none</span>{% endif %}</td>
+  </tr>
+  {% else %}
+  <tr><td colspan="6">No customers match this filter.</td></tr>
+  {% endfor %}
+</table>
+<div class="pager">
+  {% if page > 1 %}<a href="{{ url_for('customers', page=page-1, city=city, kyc=kyc) }}">&laquo; Previous</a>{% endif %}
+  <span>Page {{ page }} of {{ pages }} ({{ total }} customers)</span>
+  {% if page < pages %}<a href="{{ url_for('customers', page=page+1, city=city, kyc=kyc) }}">Next &raquo;</a>{% endif %}
+</div>
+{% endblock %}

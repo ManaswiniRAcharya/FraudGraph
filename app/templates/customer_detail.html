@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block title %}{{ c._id }}{% endblock %}
+{% block content %}
+<p><a href="{{ url_for('customers') }}">&laquo; All customers</a></p>
+<h1>{{ c.name }} <span class="muted">({{ c._id }})</span></h1>
+<p>{{ c.city }} &middot; KYC: {{ c.kyc_status }} &middot; Customer since {{ c.created_at.strftime('%Y-%m-%d') }}</p>
+
+{% if shared %}
+<h2>Shared identifiers</h2>
+{% for s in shared %}
+<div class="warn">{{ s.type }} <b>{{ s.value }}</b> is also used by
+  {% for o in s.others %}<a href="{{ url_for('customer_detail', cust_id=o) }}">{{ o }}</a>{% if not loop.last %}, {% endif %}{% endfor %}</div>
+{% endfor %}
+{% endif %}
+
+<h2>Contact and device details</h2>
+<table>
+  <tr><th>Phones</th><td>{{ c.phones | join(', ') }}</td></tr>
+  <tr><th>Devices</th><td>{{ c.devices | join(', ') }}</td></tr>
+  <tr><th>IP addresses</th><td>{{ c.ips | join(', ') }}</td></tr>
+</table>
+
+<h2>Accounts</h2>
+<table>
+  <tr><th>Account</th><th>Type</th><th>Balance</th><th>Opened</th></tr>
+  {% for a in accounts %}
+  <tr><td><a href="{{ url_for('account_detail', acc_id=a._id) }}">{{ a._id }}</a></td><td>{{ a.type }}</td>
+      <td>{{ "{:,.2f}".format(a.balance) }}</td><td>{{ a.opened_at.strftime('%Y-%m-%d') }}</td></tr>
+  {% endfor %}
+</table>
+
+<h2>KYC document</h2>
+{% if has_kyc %}
+<img src="{{ url_for('kyc_image', cust_id=c._id) }}" width="128" alt="KYC document">
+{% else %}
+<p class="muted">No document on file.</p>
+{% endif %}
+{% endblock %}
+

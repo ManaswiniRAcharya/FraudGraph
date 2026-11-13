@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}{% endblock %} | FraudGraph</title>
+<style>
+  body { font-family: Segoe UI, Arial, sans-serif; margin: 0; color: #222; background: #f6f7f9; }
+  nav { background: #1f2a44; padding: 12px 24px; }
+  nav a { color: #fff; text-decoration: none; margin-right: 20px; font-weight: 600; }
+  main { max-width: 1000px; margin: 24px auto; padding: 0 16px; }
+  table { border-collapse: collapse; width: 100%; background: #fff; }
+  th, td { text-align: left; padding: 8px 12px; border-bottom: 1px solid #e2e5ea; }
+  th { background: #eef0f4; }
+  .cards { display: flex; gap: 16px; flex-wrap: wrap; }
+  .card { background: #fff; padding: 16px 24px; border-radius: 8px; min-width: 160px; }
+  .num { font-size: 28px; font-weight: 700; }
+  .pager { margin: 16px 0; }
+  .pager a { margin: 0 12px; }
+  .warn { background: #fff4e5; border-left: 4px solid #e08a00; padding: 8px 12px; margin: 8px 0; }
+  .muted { color: #777; }
+  form.filters { margin-bottom: 16px; }
+  select, button { padding: 6px 10px; margin-right: 8px; }
+</style>
+</head>
+<body>
+<nav>
+  <a href="{{ url_for('index') }}">Home</a>
+  <a href="{{ url_for('customers') }}">Customers</a>
+  <a href="{{ url_for('accounts') }}">Accounts</a>
+  <a href="{{ url_for('transactions') }}">Transactions</a>
+  <a href="{{ url_for('alerts') }}">Alerts</a>
+</nav>
+<main>
+{% block content %}{% endblock %}
+</main>
+</body>
+</html>
+
+

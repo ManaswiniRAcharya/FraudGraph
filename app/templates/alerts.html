@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}Alerts{% endblock %}
+{% block content %}
+<h1>Alerts</h1>
+<form class="filters" method="get" action="{{ url_for('alerts') }}">
+  <input name="account" placeholder="Account, e.g. ACC0414" value="{{ account }}">
+  <button type="submit">Show</button>
+  {% if account %}<a href="{{ url_for('alerts') }}">Clear filter</a>{% endif %}
+</form>
+{% if error %}
+<div class="warn">{{ error }}. Run <code>docker compose up -d</code> and wait about a minute for Cassandra to start.</div>
+{% endif %}
+<table>
+  <tr><th>Time (UTC)</th><th>Account</th><th>Rule</th><th>Points</th><th>Rules triggered</th><th>Path</th><th>Evidence</th></tr>
+  {% for a in rows %}
+  <tr>
+    <td>{{ a.alert_time.strftime('%Y-%m-%d %H:%M') }}</td>
+    <td><a href="{{ url_for('account_detail', acc_id=a.account_id) }}">{{ a.account_id }}</a></td>
+    <td>{{ a.rule_type }}</td>
+    <td>{{ a.risk_points }}</td>
+    <td>{{ a.rules_triggered | join(', ') }}</td>
+    <td>{{ a.account_path | join(' -> ') }}</td>
+    <td>{% for k, v in a.evidence.items() %}{{ k }}={{ v }}{% if not loop.last %}; {% endif %}{% endfor %}</td>
+  </tr>
+  {% else %}
+  {% if not error %}<tr><td colspan="7">No alerts yet. Detection has not been run, or this account has none.</td></tr>{% endif %}
+  {% endfor %}
+</table>
+{% endblock %}

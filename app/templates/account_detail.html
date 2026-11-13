@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block title %}{{ a._id }}{% endblock %}
+{% block content %}
+<p><a href="{{ url_for('accounts') }}">&laquo; All accounts</a></p>
+<h1>{{ a._id }}</h1>
+<p>{{ a.type }} account &middot; opened {{ a.opened_at.strftime('%Y-%m-%d') }} &middot; owner
+  {% if owner %}<a href="{{ url_for('customer_detail', cust_id=owner._id) }}">{{ owner.name }} ({{ owner._id }})</a>
+  {% else %}{{ a.customer_id }}{% endif %}</p>
+<div class="cards">
+  <div class="card"><div class="num">{{ "{:,.0f}".format(a.balance) }}</div>Balance</div>
+  <div class="card"><div class="num">{{ sent.n }}</div>Sent ({{ "{:,.0f}".format(sent.total) }} total)</div>
+  <div class="card"><div class="num">{{ received.n }}</div>Received ({{ "{:,.0f}".format(received.total) }} total)</div>
+  <div class="card"><div class="num">{{ distinct_senders }}</div>Distinct senders</div>
+</div>
+<p><a href="{{ url_for('alerts', account=a._id) }}">View alerts for this account</a></p>
+<h2>Latest transactions (up to 50, times in UTC)</h2>
+<table>
+  <tr><th>Transaction</th><th>Time (UTC)</th><th>Direction</th><th>Other account</th><th>Amount</th><th>Channel</th></tr>
+  {% for t in recent %}
+  <tr>
+    <td>{{ t._id }}</td>
+    <td>{{ t.ts.strftime('%Y-%m-%d %H:%M') }}</td>
+    {% if t.from_acc == a._id %}
+    <td>Out</td><td><a href="{{ url_for('account_detail', acc_id=t.to_acc) }}">{{ t.to_acc }}</a></td>
+    {% else %}
+    <td>In</td><td><a href="{{ url_for('account_detail', acc_id=t.from_acc) }}">{{ t.from_acc }}</a></td>
+    {% endif %}
+    <td>{{ "{:,.2f}".format(t.amount) }}</td>
+    <td>{{ t.channel }}</td>
+  </tr>
+  {% else %}
+  <tr><td colspan="6">No transactions for this account.</td></tr>
+  {% endfor %}
+</table>
+{% endblock %}
+
